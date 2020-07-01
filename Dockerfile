@@ -34,4 +34,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.5/main" >> /etc/apk/repositories
         php7-xdebug \
         php7-xml \
         php7-zip \
-    && rm -rf /va
+    && rm -rf /var/cache/apk/* \
+    && ln -s /usr/bin/php7 /usr/bin/php \
+    && ln -s /usr/sbin/php-fpm7 /usr/bin/php-fpm \
+    && curl -sS https://getcomposer.org/installer | php -- --install-d
