@@ -28,4 +28,10 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.5/main" >> /etc/apk/repositories
         php7-mcrypt \
         php7-openssl \
         php7-pdo \
-     
+        php7-pdo_pgsql \
+        php7-phar \
+        php7-session \
+        php7-xdebug \
+        php7-xml \
+        php7-zip \
+    && rm -rf /va
