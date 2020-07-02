@@ -47,4 +47,10 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.5/main" >> /etc/apk/repositories
 RUN composer install --no-interaction
 
 RUN chmod 777 /app/cache/prod
-RUN chmod 777 
+RUN chmod 777 /app/logs
+
+COPY /conf/php.ini /etc/php7/conf.d/50-setting.ini
+COPY /conf/www.conf /etc/php7/php-fpm.d/www.conf
+COPY /conf/nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 8
