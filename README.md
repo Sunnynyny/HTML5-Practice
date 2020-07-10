@@ -5,4 +5,6 @@ Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactio
 * Domain: coinbase.com
 * Credentials: clientId, clientSecret, apiKey, secretKey
 
-## How to get
+## How to get credentials: 
+0. Sign up in [Coinbase](https://www.coinbase.com/signup), and verify your email. 
+1. Navigate to [Settings/API Access](https://ww
