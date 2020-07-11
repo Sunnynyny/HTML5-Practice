@@ -7,4 +7,6 @@ Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactio
 
 ## How to get credentials: 
 0. Sign up in [Coinbase](https://www.coinbase.com/signup), and verify your email. 
-1. Navigate to [Settings/API Access](https://ww
+1. Navigate to [Settings/API Access](https://www.coinbase.com/settings/api).
+2. Click "New OAuth2 Application", fill all required fields.
+3. Your app will appear in ["My OAuth2 Applications"](https://www
