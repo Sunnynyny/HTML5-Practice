@@ -28,4 +28,6 @@ Geta access token.
 | Field       | Type       | Description
 |-------------|------------|----------
 | clientId    | credentials| Client identifier.
-| clientSecret
+| clientSecret| credentials| Client secret.
+| redirectUri | String     | URL in your app where users will be sent after authorization.
+| code        | Stri
