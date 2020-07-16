@@ -19,4 +19,8 @@ Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactio
  |Map|String which includes latitude and longitude coma separated|```50.37, 26.56```
  |List|Simple array|```["123", "sample"]``` 
  |Select|String with predefined values|```sample```
- |Array|Array of objects|```[{"Second name":"123",
+ |Array|Array of objects|```[{"Second name":"123","Age":"12","Photo":"sdf","Draft":"sdfsdf"},{"name":"adi","Second name":"bla","Age":"4","Photo":"asfserwe","Draft":"sdfsdf"}] ```
+ 
+
+## Coinbase.getAccessToken
+Geta acces
