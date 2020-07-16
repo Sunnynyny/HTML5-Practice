@@ -16,4 +16,7 @@ Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactio
  |Datatype|Description|Example
  |--------|-----------|----------
  |Datepicker|String which includes date and time|```2016-05-28 00:00:00```
- |Map|String which includes latitude and longitude coma se
+ |Map|String which includes latitude and longitude coma separated|```50.37, 26.56```
+ |List|Simple array|```["123", "sample"]``` 
+ |Select|String with predefined values|```sample```
+ |Array|Array of objects|```[{"Second name":"123",
