@@ -23,4 +23,9 @@ Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactio
  
 
 ## Coinbase.getAccessToken
-Geta acces
+Geta access token.
+
+| Field       | Type       | Description
+|-------------|------------|----------
+| clientId    | credentials| Client identifier.
+| clientSecret
