@@ -30,4 +30,9 @@ Geta access token.
 | clientId    | credentials| Client identifier.
 | clientSecret| credentials| Client secret.
 | redirectUri | String     | URL in your app where users will be sent after authorization.
-| code        | Stri
+| code        | String     | A one-time use code that may be exchanged for a bearer token.
+
+## Coinbase.refreshAccessToken
+Refresh access token.
+
+| Field       | 
