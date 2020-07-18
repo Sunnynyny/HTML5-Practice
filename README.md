@@ -39,4 +39,9 @@ Refresh access token.
 |-------------|------------|----------
 | clientId    | credentials| Client identifier.
 | clientSecret| credentials| Client secret.
-| ref
+| refreshToken| String     | The refresh token retrieved during the initial request for an access token.
+
+## Coinbase.revokeAccessToken
+RevokeAccessToken.
+
+| Field
