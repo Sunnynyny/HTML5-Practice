@@ -35,4 +35,8 @@ Geta access token.
 ## Coinbase.refreshAccessToken
 Refresh access token.
 
-| Field       | 
+| Field       | Type       | Description
+|-------------|------------|----------
+| clientId    | credentials| Client identifier.
+| clientSecret| credentials| Client secret.
+| ref
