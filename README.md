@@ -44,4 +44,9 @@ Refresh access token.
 ## Coinbase.revokeAccessToken
 RevokeAccessToken.
 
-| Field
+| Field| Type  | Description
+|------|-------|----------
+| token| String| Active access token.
+
+## Coinbase.getNotifications
+Lists notifications where the curr
