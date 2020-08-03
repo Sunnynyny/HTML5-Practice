@@ -49,4 +49,8 @@ RevokeAccessToken.
 | token| String| Active access token.
 
 ## Coinbase.getNotifications
-Lists notifications where the curr
+Lists notifications where the current user was the subscriber. Scopes: wallet:notifications:read
+
+| Field    | Type       | Description
+|----------|------------|----------
+| apiKey   | 
