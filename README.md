@@ -57,4 +57,8 @@ Lists notifications where the current user was the subscriber. Scopes: wallet:no
 | secretKey| credentials| Your API Secret.
 
 ## Coinbase.getSingleNotification
-Show a notification for which the current user was 
+Show a notification for which the current user was a subsciber. Scopes: wallet:notifications:read
+
+| Field          | Type       | Description
+|----------------|------------|----------
+| apiKe
