@@ -61,4 +61,9 @@ Show a notification for which the current user was a subsciber. Scopes: wallet:n
 
 | Field          | Type       | Description
 |----------------|------------|----------
-| apiKe
+| apiKey         | credentials| Your API Key.
+| secretKey      | credentials| Your API Secret.
+| notificationsId| String     | Single notification identifier.
+
+## Coinbase.getUser
+Get 
