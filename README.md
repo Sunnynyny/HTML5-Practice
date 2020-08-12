@@ -66,4 +66,8 @@ Show a notification for which the current user was a subsciber. Scopes: wallet:n
 | notificationsId| String     | Single notification identifier.
 
 ## Coinbase.getUser
-Get 
+Get any user’s public information with their ID.
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Acc
