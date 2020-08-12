@@ -70,4 +70,9 @@ Get any user’s public information with their ID.
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToken| String| Acc
+| accessToken| String| Access token.
+| userId     | String| User identifier.
+
+## Coinbase.getMe
+Get current user’s public information. Scope: wallet:user:read,wallet:user:email
+
