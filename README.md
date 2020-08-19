@@ -88,4 +88,8 @@ Get current user’s authorization information including granted scopes.
 | accessToken| String| Access token.
 
 ## Coinbase.updateMe
-Modif
+Modify current user and their preferences. Scope: wallet:user:update
+
+| Field         | Type  | Description
+|---------------|-------|----------
+| accessToken   |
