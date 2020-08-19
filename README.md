@@ -76,3 +76,9 @@ Get any user’s public information with their ID.
 ## Coinbase.getMe
 Get current user’s public information. Scope: wallet:user:read,wallet:user:email
 
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.getMyAuthInfo
+Get current user’s author
