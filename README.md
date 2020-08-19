@@ -81,4 +81,11 @@ Get current user’s public information. Scope: wallet:user:read,wallet:user:ema
 | accessToken| String| Access token.
 
 ## Coinbase.getMyAuthInfo
-Get current user’s author
+Get current user’s authorization information including granted scopes.
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.updateMe
+Modif
