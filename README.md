@@ -98,4 +98,10 @@ Modify current user and their preferences. Scope: wallet:user:update
 | nativeCurrency| String| Local currency used to display amounts converted from BTC.
 
 ## Coinbase.getAccounts
-Lists current user’s accounts to which the authentication method has access to. Scope: 
+Lists current user’s accounts to which the authentication method has access to. Scope: wallet:accounts:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.getS
