@@ -104,4 +104,9 @@ Lists current user’s accounts to which the authentication method has access to
 |------------|-------|----------
 | accessToken| String| Access token.
 
-## Coinbase.getS
+## Coinbase.getSingleAccount
+Show current user’s account. Scopes: wallet:accounts:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessTo
