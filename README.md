@@ -95,4 +95,7 @@ Modify current user and their preferences. Scope: wallet:user:update
 | accessToken   | String| Access token.
 | name          | String| User’s public name.
 | timeZone      | String| Time zone.
-| nativeCurrency| String| Local currency u
+| nativeCurrency| String| Local currency used to display amounts converted from BTC.
+
+## Coinbase.getAccounts
+Lists current user’s accounts to which the authentication method has access to. Scope: 
