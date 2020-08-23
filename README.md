@@ -109,4 +109,8 @@ Show current user’s account. Scopes: wallet:accounts:read
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessTo
+| accessToken| String| Access token.
+| accountId  | String| Current user account identifier.
+
+## Coinbase.createAccount
+Creates a new account for use
