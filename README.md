@@ -118,4 +118,10 @@ Creates a new account for user. Scopes: wallet:accounts:create
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| name       | Stri
+| name       | String| Account name.
+
+## Coinbase.setAccountAsPrimary
+Promote an account as primary account. Scopes: wallet:accounts:update
+
+| Field      | Type  | Description
+|------------|-------|------
