@@ -124,4 +124,9 @@ Creates a new account for user. Scopes: wallet:accounts:create
 Promote an account as primary account. Scopes: wallet:accounts:update
 
 | Field      | Type  | Description
-|------------|-------|------
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+
+## Coinbase.updateAccount
+UpdateAccount. Scopes: wallet:accounts:update
