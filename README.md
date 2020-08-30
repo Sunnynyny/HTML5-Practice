@@ -130,3 +130,8 @@ Promote an account as primary account. Scopes: wallet:accounts:update
 
 ## Coinbase.updateAccount
 UpdateAccount. Scopes: wallet:accounts:update
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier
