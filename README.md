@@ -141,4 +141,9 @@ UpdateAccount. Scopes: wallet:accounts:update
 Removes user’s account. Scopes: wallet:accounts:delete
 
 | Field      | Type  | Description
-|------------|---
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+
+## Coinbase.getAddresses
+Lists addresses for an accou
