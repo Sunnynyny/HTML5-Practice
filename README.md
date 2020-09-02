@@ -146,4 +146,9 @@ Removes user’s account. Scopes: wallet:accounts:delete
 | accountId  | String| Account identifier.
 
 ## Coinbase.getAddresses
-Lists addresses for an accou
+Lists addresses for an account. Scopes: wallet:addresses:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account id
