@@ -151,4 +151,11 @@ Lists addresses for an account. Scopes: wallet:addresses:read
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| accountId  | String| Account id
+| accountId  | String| Account identifier.
+
+## Coinbase.getSingleAddress
+GetSingleAddress. Scopes: wallet:addresses:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToke
