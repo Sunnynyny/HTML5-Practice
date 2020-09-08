@@ -166,3 +166,9 @@ GetSingleAddress. Scopes: wallet:addresses:read
 List transactions that have been sent to a specific address. Scopes: wallet:transactions:read
 
 | Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| addressId  | String| Address identifier.
+
+## Coinb
