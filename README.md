@@ -158,4 +158,9 @@ GetSingleAddress. Scopes: wallet:addresses:read
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToke
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| addressId  | String| Address identifier.
+
+## Coinbase.getAddressTransactions
+List t
