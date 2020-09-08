@@ -163,4 +163,6 @@ GetSingleAddress. Scopes: wallet:addresses:read
 | addressId  | String| Address identifier.
 
 ## Coinbase.getAddressTransactions
-List t
+List transactions that have been sent to a specific address. Scopes: wallet:transactions:read
+
+| Field      | Type  | Description
