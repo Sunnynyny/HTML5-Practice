@@ -181,4 +181,9 @@ Creates a new address for an account. Scopes: wallet:addresses:create
 | name       | String| Address label.
 
 ## Coinbase.getTransactions
-Lists account’s transactions. Scopes: wallet:trans
+Lists account’s transactions. Scopes: wallet:transactions:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account 
