@@ -171,4 +171,9 @@ List transactions that have been sent to a specific address. Scopes: wallet:tran
 | accountId  | String| Account identifier.
 | addressId  | String| Address identifier.
 
-## Coinb
+## Coinbase.createAddress
+Creates a new address for an account. Scopes: wallet:addresses:create
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| 
