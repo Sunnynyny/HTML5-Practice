@@ -176,4 +176,9 @@ Creates a new address for an account. Scopes: wallet:addresses:create
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToken| String| 
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| name       | String| Address label.
+
+## Coinbase.getTransactions
+Lists account’s transactions. Scopes: wallet:trans
