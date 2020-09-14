@@ -197,4 +197,8 @@ Show an individual transaction for an account. Scopes: wallet:transactions:read
 | accountId    | String| Account identifier.
 | transactionId| String| Transaction identifier.
 
-## C
+## Coinbase.sendMoney
+Send funds to a bitcoin address, ethereum address, or email address. Scopes: wallet:transactions:send
+
+| Field            | Type   | Description
+|--
