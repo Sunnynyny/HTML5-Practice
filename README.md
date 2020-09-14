@@ -191,4 +191,10 @@ Lists account’s transactions. Scopes: wallet:transactions:read
 ## Coinbase.getSingleTransaction
 Show an individual transaction for an account. Scopes: wallet:transactions:read
 
-| Field        | Type  | Des
+| Field        | Type  | Description
+|--------------|-------|----------
+| accessToken  | String| Access token.
+| accountId    | String| Account identifier.
+| transactionId| String| Transaction identifier.
+
+## C
