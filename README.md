@@ -204,4 +204,6 @@ Send funds to a bitcoin address, ethereum address, or email address. Scopes: wal
 |------------------|--------|----------
 | accessToken      | String | Access token.
 | to               | String | A bitcoin address, ethereum address, or an email of the recipient.
-| amo
+| amount           | String | Amount to be sent.
+| currency         | String | Currency for the amount.
+| description      | String | Notes to be included
