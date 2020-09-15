@@ -201,4 +201,7 @@ Show an individual transaction for an account. Scopes: wallet:transactions:read
 Send funds to a bitcoin address, ethereum address, or email address. Scopes: wallet:transactions:send
 
 | Field            | Type   | Description
-|--
+|------------------|--------|----------
+| accessToken      | String | Access token.
+| to               | String | A bitcoin address, ethereum address, or an email of the recipient.
+| amo
