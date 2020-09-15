@@ -206,4 +206,6 @@ Send funds to a bitcoin address, ethereum address, or email address. Scopes: wal
 | to               | String | A bitcoin address, ethereum address, or an email of the recipient.
 | amount           | String | Amount to be sent.
 | currency         | String | Currency for the amount.
-| description      | String | Notes to be included
+| description      | String | Notes to be included in the email that the recipient receives.
+| skipNotifications| Boolean| Don’t send notification emails for small amounts.
+| fee              | String | Transaction fee i
