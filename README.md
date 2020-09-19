@@ -216,4 +216,8 @@ Transfer bitcoin or ethereum between two of a user’s accounts. Scopes: wallet:
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToken| String| A
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| to         | String| ID of the receiving account.
+| amount     | String| Amount to be transferred.
+| currency   | String
