@@ -208,4 +208,8 @@ Send funds to a bitcoin address, ethereum address, or email address. Scopes: wal
 | currency         | String | Currency for the amount.
 | description      | String | Notes to be included in the email that the recipient receives.
 | skipNotifications| Boolean| Don’t send notification emails for small amounts.
-| fee              | String | Transaction fee i
+| fee              | String | Transaction fee in BTC if you would like to pay it.
+| idem             | String | A token to ensure idempotence.
+
+## Coinbase.transferAccountsMoney
+Transfer bitcoin or ethereum between
