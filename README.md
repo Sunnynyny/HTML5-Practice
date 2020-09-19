@@ -212,4 +212,8 @@ Send funds to a bitcoin address, ethereum address, or email address. Scopes: wal
 | idem             | String | A token to ensure idempotence.
 
 ## Coinbase.transferAccountsMoney
-Transfer bitcoin or ethereum between
+Transfer bitcoin or ethereum between two of a user’s accounts. Scopes: wallet:transactions:transfer
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| A
