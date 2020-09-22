@@ -220,4 +220,8 @@ Transfer bitcoin or ethereum between two of a user’s accounts. Scopes: wallet:
 | accountId  | String| Account identifier.
 | to         | String| ID of the receiving account.
 | amount     | String| Amount to be transferred.
-| currency   | String
+| currency   | String| Currency for the amount.
+| description| String| Notes to be included in the transfer.
+
+## Coinbase.requestMoney
+Requests money from an email address. Scopes: wallet:
