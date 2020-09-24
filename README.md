@@ -224,4 +224,9 @@ Transfer bitcoin or ethereum between two of a user’s accounts. Scopes: wallet:
 | description| String| Notes to be included in the transfer.
 
 ## Coinbase.requestMoney
-Requests money from an email address. Scopes: wallet:
+Requests money from an email address. Scopes: wallet:transactions:request
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | Str
