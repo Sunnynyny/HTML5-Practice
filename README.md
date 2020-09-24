@@ -229,4 +229,7 @@ Requests money from an email address. Scopes: wallet:transactions:request
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| accountId  | Str
+| accountId  | String| Account identifier.
+| to         | String| An email of the recipient.
+| amount     | String| Amount to be requested.
+| currency   | String| Curren
