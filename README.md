@@ -232,4 +232,8 @@ Requests money from an email address. Scopes: wallet:transactions:request
 | accountId  | String| Account identifier.
 | to         | String| An email of the recipient.
 | amount     | String| Amount to be requested.
-| currency   | String| Curren
+| currency   | String| Currency for the amount.
+| description| String| Notes to be included in the email that the recipient receives.
+
+## Coinbase.completeRequestMoney
+Lets t
