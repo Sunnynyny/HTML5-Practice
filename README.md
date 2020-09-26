@@ -236,4 +236,6 @@ Requests money from an email address. Scopes: wallet:transactions:request
 | description| String| Notes to be included in the email that the recipient receives.
 
 ## Coinbase.completeRequestMoney
-Lets t
+Lets the recipient of a money request complete the request by sending money to the user who requested the money. Scopes: wallet:transactions:request
+
+| Field   
