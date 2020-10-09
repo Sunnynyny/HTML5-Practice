@@ -251,4 +251,9 @@ Lets the user resend a money request. Scopes: wallet:transactions:request
 |--------------|-------|----------
 | accessToken  | String| Access token.
 | accountId    | String| Account identifier.
-| transacti
+| transactionId| String| Transaction identifier.
+
+## Coinbase.cancelRequestMoney
+Lets a user cancel a money request. Scopes: wallet:transactions:request
+
+| Field        | Type 
