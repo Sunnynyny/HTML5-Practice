@@ -247,4 +247,8 @@ Lets the recipient of a money request complete the request by sending money to t
 ## Coinbase.resendMoneyRequest
 Lets the user resend a money request. Scopes: wallet:transactions:request
 
-| Field        | T
+| Field        | Type  | Description
+|--------------|-------|----------
+| accessToken  | String| Access token.
+| accountId    | String| Account identifier.
+| transacti
