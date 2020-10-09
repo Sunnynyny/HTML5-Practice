@@ -256,4 +256,8 @@ Lets the user resend a money request. Scopes: wallet:transactions:request
 ## Coinbase.cancelRequestMoney
 Lets a user cancel a money request. Scopes: wallet:transactions:request
 
-| Field        | Type 
+| Field        | Type  | Description
+|--------------|-------|----------
+| accessToken  | String| Access token.
+| accountId    | String| Account identifier.
+| transacti
