@@ -266,4 +266,9 @@ Lets a user cancel a money request. Scopes: wallet:transactions:request
 Lists buys for an account. Scopes: wallet:buys:read
 
 | Field      | Type  | Description
-|
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+
+## Coinbase.getSingleBuy
+Show an individual buy. Scopes:
