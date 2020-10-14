@@ -271,4 +271,9 @@ Lists buys for an account. Scopes: wallet:buys:read
 | accountId  | String| Account identifier.
 
 ## Coinbase.getSingleBuy
-Show an individual buy. Scopes:
+Show an individual buy. Scopes: wallet:buys:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Ac
