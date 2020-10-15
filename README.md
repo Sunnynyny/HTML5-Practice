@@ -280,4 +280,8 @@ Show an individual buy. Scopes: wallet:buys:read
 | buyId      | String| Individual buy identifier.
 
 ## Coinbase.placeBuyOrder
-Buys a user-defined amount of bitcoin or ethereum. Sco
+Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create
+
+| Field               | Type   | Description
+|---------------------|--------|----------
+| accessToken         | String | Access
