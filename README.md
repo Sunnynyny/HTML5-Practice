@@ -276,4 +276,8 @@ Show an individual buy. Scopes: wallet:buys:read
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| accountId  | String| Ac
+| accountId  | String| Account identifier.
+| buyId      | String| Individual buy identifier.
+
+## Coinbase.placeBuyOrder
+Buys a user-defined amount of bitcoin or ethereum. Sco
