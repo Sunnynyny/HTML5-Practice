@@ -287,4 +287,6 @@ Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create
 | accessToken         | String | Access token.
 | accountId           | String | Account identifier.
 | amount              | String | Buy amount without fees.
-| total               | String | Buy 
+| total               | String | Buy amount with fees (alternative to amount).
+| currency            | String | Currency for the amount.
+| paymentMethod       | String | The ID of the payment method that should be
