@@ -292,4 +292,9 @@ Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create
 | paymentMethod       | String | The ID of the payment method that should be used for the buy.
 | agreeBtcAmountVaries| Boolean| Whether or not you would still like to buy if you have to wait for your money to arrive to lock in a price.
 | commit              | Boolean| If set to false, this buy will not be immediately completed.
-| quote               | Boolean| If set to true, respon
+| quote               | Boolean| If set to true, response will return an unsave buy for detailed price quote.
+
+## Coinbase.commitBuy
+Completes a buy that is created in commit: false state. Scopes: wallet:buys:create
+
+| Field      | Type  
