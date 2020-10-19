@@ -290,4 +290,6 @@ Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create
 | total               | String | Buy amount with fees (alternative to amount).
 | currency            | String | Currency for the amount.
 | paymentMethod       | String | The ID of the payment method that should be used for the buy.
-| agreeBtcAmountVaries| Boolean| Whether or not you would still like to buy if you have to wait for your money to arrive to lock in a
+| agreeBtcAmountVaries| Boolean| Whether or not you would still like to buy if you have to wait for your money to arrive to lock in a price.
+| commit              | Boolean| If set to false, this buy will not be immediately completed.
+| quote               | Boolean| If set to true, respon
