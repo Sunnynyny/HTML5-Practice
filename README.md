@@ -297,4 +297,10 @@ Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create
 ## Coinbase.commitBuy
 Completes a buy that is created in commit: false state. Scopes: wallet:buys:create
 
-| Field      | Type  
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| buyId      | String| Individual buy identifier.
+
+## Coin
