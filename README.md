@@ -303,4 +303,9 @@ Completes a buy that is created in commit: false state. Scopes: wallet:buys:crea
 | accountId  | String| Account identifier.
 | buyId      | String| Individual buy identifier.
 
-## Coin
+## Coinbase.getSells
+Lists sells for an account. Scopes: wallet:sells:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken|
