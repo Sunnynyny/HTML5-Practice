@@ -314,4 +314,8 @@ Lists sells for an account. Scopes: wallet:sells:read
 ## Coinbase.getSingleSell
 Show an individual sell. Scopes: wallet:sells:read
 
-| Field     
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| sellId     | String| Individual 
