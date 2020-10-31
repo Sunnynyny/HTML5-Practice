@@ -308,4 +308,10 @@ Lists sells for an account. Scopes: wallet:sells:read
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToken|
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+
+## Coinbase.getSingleSell
+Show an individual sell. Scopes: wallet:sells:read
+
+| Field     
