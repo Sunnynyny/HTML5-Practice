@@ -318,4 +318,9 @@ Show an individual sell. Scopes: wallet:sells:read
 |------------|-------|----------
 | accessToken| String| Access token.
 | accountId  | String| Account identifier.
-| sellId     | String| Individual 
+| sellId     | String| Individual sell identifier.
+
+## Coinbase.placeSellOrder
+Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create
+
+| Field               | Type
