@@ -331,4 +331,5 @@ Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create
 | total               | String | Sell amount with fees.
 | currency            | String | Currency for the amount.
 | paymentMethod       | String | The ID of the payment method that should be used for the sell.
-| agreeBtcAmountVaries| Boolean| 
+| agreeBtcAmountVaries| Boolean| Whether or not you would still like to sell if you have to wait for your money to arrive to lock in a price.
+| quote               | Boolean| f set to true, response will 
