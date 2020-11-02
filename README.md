@@ -326,4 +326,7 @@ Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create
 | Field               | Type   | Description
 |---------------------|--------|----------
 | accessToken         | String | Access token.
-| accountId           | String | Account iden
+| accountId           | String | Account identifier.
+| amount              | String | Sell amount.
+| total               | String | Sell amount with fees.
+| currency            | String | Currency for the am
