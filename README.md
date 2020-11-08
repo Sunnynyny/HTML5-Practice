@@ -337,4 +337,8 @@ Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create
 ## Coinbase.commitSell
 Completes a sell that is created in commit: false state. Scopes: wallet:sells:create
 
-| 
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| sellId     
