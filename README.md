@@ -346,4 +346,10 @@ Completes a sell that is created in commit: false state. Scopes: wallet:sells:cr
 ## Coinbase.getDeposits
 Lists deposits for an account. Scopes: wallet:deposits:read
 
-| Field      | 
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+
+## Coinbase.getSingleDeposit
+Show an individual dep
