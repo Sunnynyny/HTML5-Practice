@@ -341,4 +341,9 @@ Completes a sell that is created in commit: false state. Scopes: wallet:sells:cr
 |------------|-------|----------
 | accessToken| String| Access token.
 | accountId  | String| Account identifier.
-| sellId     
+| sellId     | String| Individual sell identifier.
+
+## Coinbase.getDeposits
+Lists deposits for an account. Scopes: wallet:deposits:read
+
+| Field      | 
