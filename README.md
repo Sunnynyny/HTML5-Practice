@@ -352,4 +352,9 @@ Lists deposits for an account. Scopes: wallet:deposits:read
 | accountId  | String| Account identifier.
 
 ## Coinbase.getSingleDeposit
-Show an individual dep
+Show an individual deposit. Scopes: wallet:deposits:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+|
