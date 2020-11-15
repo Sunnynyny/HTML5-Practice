@@ -361,4 +361,9 @@ Show an individual deposit. Scopes: wallet:deposits:read
 | depositId  | String| Deposit identifier.
 
 ## Coinbase.depositFunds
-Deposits user-defined amount of funds to a fiat account. Scopes:
+Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits:create
+
+| Field        | Type   | Description
+|--------------|--------|----------
+| accessToken  | String | Access token.
+| accountId 
