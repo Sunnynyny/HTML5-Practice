@@ -366,4 +366,7 @@ Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits
 | Field        | Type   | Description
 |--------------|--------|----------
 | accessToken  | String | Access token.
-| accountId 
+| accountId    | String | Account identifier.
+| amount       | String | Deposit amount.
+| currency     | String | Currency for the amount.
+| paymentMethod| String | The ID of the payment 
