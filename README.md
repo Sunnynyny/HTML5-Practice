@@ -369,4 +369,8 @@ Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits
 | accountId    | String | Account identifier.
 | amount       | String | Deposit amount.
 | currency     | String | Currency for the amount.
-| paymentMethod| String | The ID of the payment 
+| paymentMethod| String | The ID of the payment method that should be used for the deposit.
+| commit       | Boolean| If set to false, this deposit will not be immediately completed.
+
+## Coinbase.commitDeposit
+Completes a deposit
