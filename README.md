@@ -377,4 +377,9 @@ Completes a deposit that is created in commit: false state. Scopes: wallet:depos
 
 | Field      | Type  | Description
 |------------|-------|----------
-| accessToken| String| Acces
+| accessToken| String| Access token.
+| accountId  | String| Account identifier.
+| depositId  | String| Deposit identifier.
+
+## Coinbase.getWithdrawals
+Lists withdrawals for an account. S
