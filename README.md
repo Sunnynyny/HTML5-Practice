@@ -373,4 +373,8 @@ Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits
 | commit       | Boolean| If set to false, this deposit will not be immediately completed.
 
 ## Coinbase.commitDeposit
-Completes a deposit
+Completes a deposit that is created in commit: false state. Scopes: wallet:deposits:create
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Acces
