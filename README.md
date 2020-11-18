@@ -382,4 +382,9 @@ Completes a deposit that is created in commit: false state. Scopes: wallet:depos
 | depositId  | String| Deposit identifier.
 
 ## Coinbase.getWithdrawals
-Lists withdrawals for an account. S
+Lists withdrawals for an account. Scopes: wallet:withdrawals:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| accountId  |
