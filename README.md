@@ -387,4 +387,9 @@ Lists withdrawals for an account. Scopes: wallet:withdrawals:read
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| accountId  |
+| accountId  | String| Account identifier.
+
+## Coinbase.getSingleWithdrawal
+Show an individual withdrawal. Scopes: wallet:withdrawals:read
+
+| Field       | Type  | Desc
