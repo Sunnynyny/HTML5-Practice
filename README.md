@@ -407,4 +407,8 @@ Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withd
 | accountId    | String | Account identifier.
 | amount       | String | Withdrawal amount.
 | currency     | String | Currency for the amount.
-| paymentMethod| String | The ID of the payment method that should be used for 
+| paymentMethod| String | The ID of the payment method that should be used for the withdrawal.
+| commit       | Boolean| If set to false, this withdrawal will not be immediately completed.
+
+## Coinbase.commitWithdrawal
+Completes a withdrawal that is 
