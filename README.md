@@ -401,4 +401,8 @@ Show an individual withdrawal. Scopes: wallet:withdrawals:read
 ## Coinbase.withdrawFunds
 Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withdrawals:create
 
-| Field      
+| Field        | Type   | Description
+|--------------|--------|----------
+| accessToken  | String | Access token.
+| accountId    | String | Account identifier.
+| amount       | Strin
