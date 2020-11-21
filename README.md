@@ -405,4 +405,6 @@ Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withd
 |--------------|--------|----------
 | accessToken  | String | Access token.
 | accountId    | String | Account identifier.
-| amount       | Strin
+| amount       | String | Withdrawal amount.
+| currency     | String | Currency for the amount.
+| paymentMethod| String | The ID of the payment method that should be used for 
