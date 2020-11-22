@@ -415,4 +415,8 @@ Completes a withdrawal that is created in commit: false state. Scopes: wallet:wi
 
 | Field       | Type  | Description
 |-------------|-------|----------
-| access
+| accessToken | String| Access token.
+| accountId   | String| Account identifier.
+| withdrawalId| String| Withdrawal identifier.
+
+## Coinbase.getPaymentMethods
