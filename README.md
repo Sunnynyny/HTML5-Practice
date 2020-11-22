@@ -411,4 +411,8 @@ Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withd
 | commit       | Boolean| If set to false, this withdrawal will not be immediately completed.
 
 ## Coinbase.commitWithdrawal
-Completes a withdrawal that is 
+Completes a withdrawal that is created in commit: false state. Scopes: wallet:withdrawals:create
+
+| Field       | Type  | Description
+|-------------|-------|----------
+| access
