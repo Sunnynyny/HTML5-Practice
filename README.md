@@ -420,3 +420,8 @@ Completes a withdrawal that is created in commit: false state. Scopes: wallet:wi
 | withdrawalId| String| Withdrawal identifier.
 
 ## Coinbase.getPaymentMethods
+Lists current user’s payment methods. Scopes: wallet:payment-methods:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessTo
