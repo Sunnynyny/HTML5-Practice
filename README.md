@@ -429,4 +429,7 @@ Lists current user’s payment methods. Scopes: wallet:payment-methods:read
 ## Coinbase.getSinglePaymentMethod
 Show current user’s payment method. Scopes: wallet:payment-methods:read
 
-| Field      
+| Field          | Type  | Description
+|----------------|-------|----------
+| accessToken    | String| Access token.
+| paymentMethodId| String| Payment method ide
