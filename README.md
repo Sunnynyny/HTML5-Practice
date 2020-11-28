@@ -432,4 +432,11 @@ Show current user’s payment method. Scopes: wallet:payment-methods:read
 | Field          | Type  | Description
 |----------------|-------|----------
 | accessToken    | String| Access token.
-| paymentMethodId| String| Payment method ide
+| paymentMethodId| String| Payment method identifier.
+
+## Coinbase.getSingleMerchant
+Get any merchant’s information with their ID.
+
+| Field      | Type  | Description
+|------------|-------|----------
+| acc
