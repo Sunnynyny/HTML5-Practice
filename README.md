@@ -445,4 +445,9 @@ Get any merchant’s information with their ID.
 ## Coinbase.getOrders
 Lists the current user’s (merchant) orders. Scopes: wallet:orders:read
 
-| Field     
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.getSingleOrder
+Show current merchant order. Scopes: wallet:ord
