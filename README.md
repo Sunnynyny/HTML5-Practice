@@ -439,4 +439,10 @@ Get any merchant’s information with their ID.
 
 | Field      | Type  | Description
 |------------|-------|----------
-| acc
+| accessToken| String| Access token.
+| merchantId | String| Merchant identifier.
+
+## Coinbase.getOrders
+Lists the current user’s (merchant) orders. Scopes: wallet:orders:read
+
+| Field     
