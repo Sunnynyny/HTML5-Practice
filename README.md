@@ -450,4 +450,11 @@ Lists the current user’s (merchant) orders. Scopes: wallet:orders:read
 | accessToken| String| Access token.
 
 ## Coinbase.getSingleOrder
-Show current merchant order. Scopes: wallet:ord
+Show current merchant order. Scopes: wallet:orders:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| orderId    | String| Order identifier.
+
+## Coinbase.cre
