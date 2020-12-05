@@ -462,4 +462,7 @@ Creates a new merchant order. Scopes: wallet:orders:create
 
 | Field           | Type  | Description
 |-----------------|-------|----------
-| accessToken     | Strin
+| accessToken     | String| Access token.
+| amount          | String| Order amount (price).
+| currency        | String| Order amount’s currency.
+| name            | String| Name of the 
