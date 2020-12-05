@@ -457,4 +457,9 @@ Show current merchant order. Scopes: wallet:orders:read
 | accessToken| String| Access token.
 | orderId    | String| Order identifier.
 
-## Coinbase.cre
+## Coinbase.createOrder
+Creates a new merchant order. Scopes: wallet:orders:create
+
+| Field           | Type  | Description
+|-----------------|-------|----------
+| accessToken     | Strin
