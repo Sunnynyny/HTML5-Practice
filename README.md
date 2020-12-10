@@ -468,4 +468,10 @@ Creates a new merchant order. Scopes: wallet:orders:create
 | name            | String| Name of the order.
 | description     | String| More detailed description of the order.
 | notificationsUrl| String| Order specific notification URL.
-| metadata        | JSON  | JSON Object. Develo
+| metadata        | JSON  | JSON Object. Developer defined key value pairs.
+
+## Coinbase.refundOrder
+Refunds an order. Scopes: wallet:orders:refund
+
+| Field        | Type  | Description
+|--------------|---
