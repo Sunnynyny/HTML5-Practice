@@ -474,4 +474,7 @@ Creates a new merchant order. Scopes: wallet:orders:create
 Refunds an order. Scopes: wallet:orders:refund
 
 | Field        | Type  | Description
-|--------------|---
+|--------------|-------|----------
+| accessToken  | String| Access token.
+| orderId      | String| Order identifier.
+| currency     | String| The currency to issue the 
