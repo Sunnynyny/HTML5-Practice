@@ -483,4 +483,9 @@ Refunds an order. Scopes: wallet:orders:refund
 ## Coinbase.getCheckouts
 Lists current user’s checkouts. Scopes: wallet:checkouts:read
 
-| Field      | 
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.getSingleCheckout
+Show current user’s checkout.
