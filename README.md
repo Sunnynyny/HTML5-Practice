@@ -477,4 +477,10 @@ Refunds an order. Scopes: wallet:orders:refund
 |--------------|-------|----------
 | accessToken  | String| Access token.
 | orderId      | String| Order identifier.
-| currency     | String| The currency to issue the 
+| currency     | String| The currency to issue the refund in.
+| refundAddress| String| Must be a valid bitcoin address.
+
+## Coinbase.getCheckouts
+Lists current user’s checkouts. Scopes: wallet:checkouts:read
+
+| Field      | 
