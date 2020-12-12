@@ -488,4 +488,9 @@ Lists current user’s checkouts. Scopes: wallet:checkouts:read
 | accessToken| String| Access token.
 
 ## Coinbase.getSingleCheckout
-Show current user’s checkout.
+Show current user’s checkout. Scopes: wallet:checkouts:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| 
