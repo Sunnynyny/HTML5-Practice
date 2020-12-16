@@ -493,4 +493,7 @@ Show current user’s checkout. Scopes: wallet:checkouts:read
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| 
+| checkoutId | String| Checkout identifier.
+
+## Coinbase.createCheckout
+Creates a new merchant order checkout product. Scopes: wallet:che
