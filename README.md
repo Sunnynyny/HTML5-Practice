@@ -501,4 +501,6 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | Field                 | Type   | Description
 |-----------------------|--------|----------
 | accessToken           | String | Access token.
-|
+| amount                | String | Order amount (price).
+| currency              | String | Order amount’s currency.
+| name                  | String | Name of the order.
