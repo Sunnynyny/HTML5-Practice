@@ -508,4 +508,5 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | type                  | String | Checkout’s order type.
 | style                 | Select | Style of a payment button. One of: buy_now_large, buy_now_small, donation_large, donation_small ,custom_large, custom_small.
 | customerDefinedAmount | Boolean| Allow customer to define the amount they are paying.
-|
+| amountPresets         | List  | Array of Strings, allow customer to select one of the predefined amount values.
+| successUrl            | String | 
