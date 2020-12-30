@@ -514,4 +514,7 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | notificationsUrl      | String | Checkout specific notification URL.
 | autoRedirect          | Boolean| Auto-redirect users to success or cancel url after payment.
 | collectShippingAddress| Boolean| Collect shipping address from customer.
-| collectEmail          | Boolean| Collect email addres
+| collectEmail          | Boolean| Collect email address from customer.
+| collectPhoneNumber    | Boolean| Collect phone number from customer.
+| collectCountry        | Boolean| Collect country from customer.
+| m
