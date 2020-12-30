@@ -510,4 +510,6 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | customerDefinedAmount | Boolean| Allow customer to define the amount they are paying.
 | amountPresets         | List  | Array of Strings, allow customer to select one of the predefined amount values.
 | successUrl            | String | URL to which the customer is redirected after successful payment.
-| cancelUrl             | String | URL to which the customer is redirected after they
+| cancelUrl             | String | URL to which the customer is redirected after they have canceled a payment.
+| notificationsUrl      | String | Checkout specific notification URL.
+| autoRedirect          | Boolean| Auto-redirect use
