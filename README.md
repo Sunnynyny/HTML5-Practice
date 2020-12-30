@@ -517,4 +517,7 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | collectEmail          | Boolean| Collect email address from customer.
 | collectPhoneNumber    | Boolean| Collect phone number from customer.
 | collectCountry        | Boolean| Collect country from customer.
-| m
+| metadata              | JSON   | JSON Object. Developer defined key value pairs.
+
+## Coinbase.getCheckoutOrders
+Lists checkout product’s orders. Scopes: wallet:checkouts
