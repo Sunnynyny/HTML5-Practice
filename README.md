@@ -512,4 +512,6 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | successUrl            | String | URL to which the customer is redirected after successful payment.
 | cancelUrl             | String | URL to which the customer is redirected after they have canceled a payment.
 | notificationsUrl      | String | Checkout specific notification URL.
-| autoRedirect          | Boolean| Auto-redirect use
+| autoRedirect          | Boolean| Auto-redirect users to success or cancel url after payment.
+| collectShippingAddress| Boolean| Collect shipping address from customer.
+| collectEmail          | Boolean| Collect email addres
