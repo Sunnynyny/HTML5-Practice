@@ -531,4 +531,11 @@ Lists checkout product’s orders. Scopes: wallet:checkouts:read
 Creates a new order for a checkout. Scopes: wallet:checkouts:create
 
 | Field      | Type  | Description
-|----------
+|------------|-------|----------
+| accessToken| String| Access token.
+| checkoutId | String| Checkout identifier.
+
+## Coinbase.getCurrencies
+List known currencies.
+
+| Fiel
