@@ -538,4 +538,9 @@ Creates a new order for a checkout. Scopes: wallet:checkouts:create
 ## Coinbase.getCurrencies
 List known currencies.
 
-| Fiel
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+
+## Coinbase.getExchangeRates
+Get current e
