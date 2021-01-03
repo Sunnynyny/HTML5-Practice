@@ -520,4 +520,9 @@ Creates a new merchant order checkout product. Scopes: wallet:checkouts:create
 | metadata              | JSON   | JSON Object. Developer defined key value pairs.
 
 ## Coinbase.getCheckoutOrders
-Lists checkout product’s orders. Scopes: wallet:checkouts
+Lists checkout product’s orders. Scopes: wallet:checkouts:read
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| checkoutId | String| Ch
