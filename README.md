@@ -543,4 +543,9 @@ List known currencies.
 | accessToken| String| Access token.
 
 ## Coinbase.getExchangeRates
-Get current e
+Get current exchange rates.
+
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| currency   | String| Base currency (defa
