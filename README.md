@@ -566,4 +566,9 @@ Get the total price to sell one bitcoin or ether.
 | accessToken | String| Access token.
 | currencyPair| String| Currency pair. Example BTC-USD.
 
-## Coinb
+## Coinbase.getSpotPrice
+Get the current market price for bitcoin.
+
+| Field       | Type  | Description
+|-------------|-------|----------
+| accessToken | String| Acce
