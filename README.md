@@ -548,4 +548,11 @@ Get current exchange rates.
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access token.
-| currency   | String| Base currency (defa
+| currency   | String| Base currency (default: USD).
+
+## Coinbase.getBuyPrice
+Get the total price to buy one bitcoin or ether.
+
+| Field       | Type  | Description
+|-------------|-------|----------
+| accessToken 
