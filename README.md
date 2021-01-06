@@ -555,4 +555,10 @@ Get the total price to buy one bitcoin or ether.
 
 | Field       | Type  | Description
 |-------------|-------|----------
-| accessToken 
+| accessToken | String| Access token.
+| currencyPair| String| Currency pair. Example BTC-USD.
+
+## Coinbase.getSellPrice
+Get the total price to sell one bitcoin or ether.
+
+| Field    
