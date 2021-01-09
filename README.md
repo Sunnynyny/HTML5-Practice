@@ -583,4 +583,8 @@ No arguments.
 ## Coinbase.nextPage
 Retrieve next page for paginated blocks.
 
-| Field      | Type  | D
+| Field      | Type  | Description
+|------------|-------|----------
+| accessToken| String| Access token.
+| nextUri    | String| Next page Uri, from pagination object in response.
+
