@@ -571,4 +571,6 @@ Get the current market price for bitcoin.
 
 | Field       | Type  | Description
 |-------------|-------|----------
-| accessToken | String| Acce
+| accessToken | String| Access token.
+| currencyPair| String| Currency pair. Example BTC-USD.
+| date        | DatePicker| Specify date for historic spot price in format YYYY-MM-DD (U
