@@ -573,4 +573,14 @@ Get the current market price for bitcoin.
 |-------------|-------|----------
 | accessToken | String| Access token.
 | currencyPair| String| Currency pair. Example BTC-USD.
-| date        | DatePicker| Specify date for historic spot price in format YYYY-MM-DD (U
+| date        | DatePicker| Specify date for historic spot price in format YYYY-MM-DD (UTC).
+
+## Coinbase.getCurrentTime
+Get the API server time.
+
+No arguments.
+
+## Coinbase.nextPage
+Retrieve next page for paginated blocks.
+
+| Field      | Type  | D
