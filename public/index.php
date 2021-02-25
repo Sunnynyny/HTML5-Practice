@@ -9,4 +9,9 @@ define('RAPID_IN', TRUE);
 
 $inPath = trim(str_replace('index.php', '', trim($_SERVER['SCRIPT_NAME'], '\/\\' )), '\/\\');
 if( strlen(trim($inPath)) > 0){
-    define('INDEX_
+    define('INDEX_PATH', '/' . $inPath . '/');
+}else{
+    define('INDEX_PATH', '/');
+}
+define('APP_PATH', __DIR__);
+define('HTTP_HOST', $_SERVER['HTTP_HOST']);
