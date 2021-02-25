@@ -25,4 +25,6 @@ if(
     !is_array($settings['blocks']) ||
     !isset($settings['custom'])
 ){
-    throw new Exception('Wro
+    throw new Exception('Wrong vendor.php format \'package\', \'blocks\' or \'customBlocksHandlers\' in root is miss');
+}
+$router = new Router($settings['package'], $settings['blocks'], $
