@@ -21,3 +21,8 @@ $settings = include dirname(APP_PATH) . '/src/metadata/vendor.php';
 
 if(
     !isset($settings['package']) ||
+    !isset($settings['blocks']) ||
+    !is_array($settings['blocks']) ||
+    !isset($settings['custom'])
+){
+    throw new Exception('Wro
