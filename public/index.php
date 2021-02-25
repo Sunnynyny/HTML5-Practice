@@ -15,3 +15,9 @@ if( strlen(trim($inPath)) > 0){
 }
 define('APP_PATH', __DIR__);
 define('HTTP_HOST', $_SERVER['HTTP_HOST']);
+
+// Include metadata array
+$settings = include dirname(APP_PATH) . '/src/metadata/vendor.php';
+
+if(
+    !isset($settings['package']) ||
