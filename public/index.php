@@ -27,4 +27,8 @@ if(
 ){
     throw new Exception('Wrong vendor.php format \'package\', \'blocks\' or \'customBlocksHandlers\' in root is miss');
 }
-$router = new Router($settings['package'], $settings['blocks'], $
+$router = new Router($settings['package'], $settings['blocks'], $settings['custom']);
+$router->setup();
+$router->run();
+http_response_code(200);
+exit(200);
