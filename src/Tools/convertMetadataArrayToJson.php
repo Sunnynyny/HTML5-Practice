@@ -11,4 +11,7 @@ if(
 ){
     exit(
         "\n" .
-        'Usage: php convertMetadataArrayToJson.php <path_to_file> <output_f
+        'Usage: php convertMetadataArrayToJson.php <path_to_file> <output_folder_path>' . "\n" .
+        'Where:' . "\n" .
+        "    <path_to_file> is full path to metadata file\n" .
+        "    <output_folder_path> not required,
