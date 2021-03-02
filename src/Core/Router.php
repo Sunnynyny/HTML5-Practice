@@ -191,3 +191,184 @@ class Router
     private function getInputPram($paramList)
     {
         // Retrieve data params from input body
+        $requestBody = file_get_contents('php://input');
+        if(strlen($requestBody)>0){
+            $requestBody = $this->normalizeJson($requestBody);
+            $requestBody = str_replace('\"', '"', $requestBody);
+            $requestBody = json_decode($requestBody, true);
+            if(json_last_error() != 0) {
+                $response = [];
+                $response['callback'] = 'error';
+                $response['contextWrites']['to']['status_code'] = 'JSON_VALIDATION';
+                $response['contextWrites']['to']['status_msg'] = "Syntax error. Incorrect input JSON. Please, check fields withJSON input. " . json_last_error_msg();
+
+                return json_encode($response);
+            }
+            $jsonParam = $requestBody['args'];
+            $param = [];
+            // Check input param in param list
+            foreach($paramList as $oneParam){
+                $param[$oneParam] = (isset($jsonParam[$oneParam]))?$jsonParam[$oneParam]:null;
+            }
+
+            return $param;
+        }else{
+            return [];
+        }
+    }
+
+    protected function validateParam($inputParam, $requiredPram = [], $jsonParams = [])
+    {
+        // Check Required params
+        if(count($requiredPram)>0){
+            $requiredPramCheck = [];
+            foreach($requiredPram as $oneParam){
+                if(!isset($inputParam[$oneParam]) || $inputParam[$oneParam] === false || $inputParam[$oneParam] === ''){
+                    array_push($requiredPramCheck, $oneParam);
+                }
+            }
+            if(count($requiredPramCheck)>0){
+                $response = [];
+                $response['callback'] = 'error';
+                $response['contextWrites']['to']['status_code'] = "REQUIRED_FIELDS";
+                $response['contextWrites']['to']['status_msg'] = "Please, check and fill in required fields.";
+                $response['contextWrites']['to']['fields'] = $requiredPramCheck;
+
+                return json_encode($response);
+            }
+        }
+        // Check JSON params
+        if(count($jsonParams)>0){
+            $jsonParamsCheck = [];
+            foreach($jsonParams as $oneParam){
+                if(isset($inputParam[$oneParam]) && $inputParam[$oneParam] != false){
+                    if(!is_array($inputParam[$oneParam])) {
+                        array_push($jsonParamsCheck, $oneParam);
+                    }
+                }
+            }
+            if(count($jsonParamsCheck)>0){
+                $response = [];
+                $response['callback'] = 'error';
+                $response['contextWrites']['to']['status_code'] = 'JSON_VALIDATION';
+                $response['contextWrites']['to']['status_msg'] = "Syntax error. Incorrect input JSON. Please, check fields withJSON input.";
+                $response['contextWrites']['to']['fields'] = $jsonParamsCheck;
+
+                return json_encode($response);
+            }
+        }
+
+        return false;
+    }
+
+    private function prepareParam($inputParam, $dictionary, $blockName)
+    {
+        $result = [];
+        foreach($inputParam as $paramName => $paramVal){
+            if($paramVal == null){
+                continue;
+            }
+            // Convert numeric in Numeric type
+            if(is_numeric($paramVal)){
+                $paramVal = intval($paramVal);
+            }
+            // Substitution using dictionary
+            $finalParamName = $paramName;
+            if(count($dictionary)>0 && $paramVal != false && isset($dictionary[$paramName])) {
+                $finalParamName = $dictionary[$paramName];
+            }
+            $result[$finalParamName] = $paramVal;
+        }
+
+        return $result;
+    }
+
+    protected function httpRequest($url, $method, $sendBody, $accessToken)
+    {
+        if($sendBody == '[]' || $sendBody == '{}'){
+            $sendBody = '';
+        }
+
+        $result = [];
+        try {
+            // Setup client
+            $clientSetup = [
+                'headers' => [
+                    'Content-Type' => 'application/json',
+                    'CB-VERSION' => $this->apiVersion,
+                ] ];
+
+            if($accessToken){
+                $clientSetup['headers']['Authorization'] = 'Bearer ' . $accessToken;
+            }
+
+            if($method == 'API-KEY-GET'){
+                $clientSetup = $sendBody;
+                $method = 'GET';
+            }else{
+                $clientSetup['query'] = json_decode($sendBody, true);
+            }
+
+            $vendorResponse = $this->http->request($method, $url, $clientSetup);
+            $responseBody = $vendorResponse->getBody()->getContents();
+
+            if($responseBody === 'true'||$responseBody==='false'){
+                $responseBody = json_encode($responseBody);
+            }
+
+            if($responseBody === '{"json": {"errors": []}}'){
+                $responseBody = json_encode('success');
+            }
+
+            $result['callback'] = 'success';
+            if(empty(json_decode($responseBody))&&strlen($responseBody)==0) {
+                $result['contextWrites']['to'] = 'success' . $responseBody;
+            } else {
+                $result['contextWrites']['to'] = json_decode($responseBody, true);
+            }
+        } catch (\GuzzleHttp\Exception\ClientException $exception) {
+            $responseBody = $exception->getResponse()->getBody()->getContents();
+            if(empty(json_decode($responseBody))) {
+                $out = $responseBody;
+            } else {
+                $out = json_decode($responseBody, true);
+            }
+            $result['callback'] = 'error';
+            $result['contextWrites']['to']['status_code'] = 'API_ERROR';
+            $result['contextWrites']['to']['status_msg'] = $out;
+        } catch (\GuzzleHttp\Exception\UnhandledException $exception) {
+            $responseBody = $exception->getResponse()->getBody()->getContents();
+            if(empty(json_decode($responseBody))) {
+                $out = 'API_ERROR' . $responseBody;
+            } else {
+                $out = json_decode($responseBody, true);
+            }
+            $result['callback'] = 'error';
+            $result['contextWrites']['to']['status_code'] = 'API_ERROR';
+            $result['contextWrites']['to']['status_msg'] = $out;
+        } catch (\GuzzleHttp\Exception\ServerException $exception) {
+            $responseBody = $exception->getResponse()->getBody()->getContents();
+            if(empty(json_decode($responseBody))) {
+                $out = 'API_ERROR' . $responseBody;
+            } else {
+                $out = json_decode($responseBody, true);
+            }
+            $result['callback'] = 'error';
+            $result['contextWrites']['to']['status_code'] = 'API_ERROR';
+            $result['contextWrites']['to']['status_msg'] = $out;
+        } catch (\GuzzleHttp\Exception\ConnectException $exception) {
+            $result['callback'] = 'error';
+            $result['contextWrites']['to']['status_code'] = 'INTERNAL_PACKAGE_ERROR';
+            $result['contextWrites']['to']['status_msg'] = 'Something went wrong inside the package.';
+        }
+
+        return $result;
+    }
+
+    private function normalizeJson($jsonObject)
+    {
+        return preg_replace_callback('~"([\[{].*?[}\]])"~s', function($match){
+            return preg_replace('~\s*"\s*~', "\"", $match[1]);
+        }, $jsonObject);
+    }
+}
