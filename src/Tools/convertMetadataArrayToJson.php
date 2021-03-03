@@ -14,4 +14,10 @@ if(
         'Usage: php convertMetadataArrayToJson.php <path_to_file> <output_folder_path>' . "\n" .
         'Where:' . "\n" .
         "    <path_to_file> is full path to metadata file\n" .
-        "    <output_folder_path> not required,
+        "    <output_folder_path> not required, full path to folder for output metadata file\n\n"
+    );
+}
+$outputDir = '';
+if(isset($argv[2])){
+    if(is_dir($argv[2])){
+        $outputDir = rtrim($argv[2], '/\/');
