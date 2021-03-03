@@ -21,3 +21,9 @@ $outputDir = '';
 if(isset($argv[2])){
     if(is_dir($argv[2])){
         $outputDir = rtrim($argv[2], '/\/');
+        $outputDir .= DIRECTORY_SEPARATOR;
+    }else{
+        exit(
+            "\n" .
+            "! Error\n" .
+            '  folder ' . $arg
