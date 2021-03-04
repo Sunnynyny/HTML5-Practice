@@ -26,4 +26,14 @@ if(isset($argv[2])){
         exit(
             "\n" .
             "! Error\n" .
-            '  folder ' . $arg
+            '  folder ' . $argv[2] . ' dosen\'t exist' .
+            "\n\n"
+        );
+    }
+}
+
+//--------------//
+//-- TO JSON ---//
+//--------------//
+$json = include_once $argv[1];
+u
