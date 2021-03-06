@@ -49,4 +49,10 @@ foreach($json['blocks'] as &$oneBlock){
         ],
     ];
 }
-$json = json_encode($json, JSON_PRETTY_PR
+$json = json_encode($json, JSON_PRETTY_PRINT);
+if(json_last_error() != 0) {
+    exit(
+        "\n" .
+        "! JSON syntax error\n" .
+        "  Message: " . json_last_error_msg() .
+        "\n\
