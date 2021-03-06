@@ -41,4 +41,12 @@ foreach($json['blocks'] as &$oneBlock){
     $oneBlock['callbacks'] = [
         [
             "name" => "error",
-            "
+            "info" => "Error",
+        ],
+        [
+            "name" => "success",
+            "info" => "Success",
+        ],
+    ];
+}
+$json = json_encode($json, JSON_PRETTY_PR
