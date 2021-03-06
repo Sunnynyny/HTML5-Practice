@@ -36,4 +36,9 @@ if(isset($argv[2])){
 //-- TO JSON ---//
 //--------------//
 $json = include_once $argv[1];
-u
+unset($json['custom']);
+foreach($json['blocks'] as &$oneBlock){
+    $oneBlock['callbacks'] = [
+        [
+            "name" => "error",
+            "
