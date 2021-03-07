@@ -10,4 +10,8 @@ if(
     !is_file($argv[1]) ||
     strlen($argv[2]) < 1 ||
     !is_file($argv[2])
-)
+){
+    exit(
+        "\n" .
+        'Usage: php convertMetadataArrayToJson.php <path_to_file> <path_to_custom_file> <output_folder_path>' . "\n" .
+        'Whe
