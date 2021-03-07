@@ -55,4 +55,8 @@ if(json_last_error() != 0) {
         "\n" .
         "! JSON syntax error\n" .
         "  Message: " . json_last_error_msg() .
-        "\n\
+        "\n\n"
+    );
+}
+$json = str_replace('\/', '/', $json);
+file_put_contents($outputDir . 'metadata.json', $json);
