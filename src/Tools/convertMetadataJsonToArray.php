@@ -17,4 +17,9 @@ if(
         'Where:' . "\n" .
         "    <path_to_file> is full path to metadata file\n" .
         "    <path_to_custom_file> is full path to custom file\n" .
-        "    <output
+        "    <output_folder_path> not required, full path to folder for output metadata file\n\n"
+    );
+}
+$outputDir = '';
+if(isset($argv[3])){
+    if(is_dir($argv
