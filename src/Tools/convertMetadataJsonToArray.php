@@ -22,4 +22,11 @@ if(
 }
 $outputDir = '';
 if(isset($argv[3])){
-    if(is_dir($argv
+    if(is_dir($argv[3])){
+        $outputDir = rtrim($argv[3], '/\/');
+        $outputDir .= DIRECTORY_SEPARATOR;
+    }else{
+        exit(
+            "\n" .
+            "! Error\n" .
+ 
