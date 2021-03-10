@@ -29,4 +29,14 @@ if(isset($argv[3])){
         exit(
             "\n" .
             "! Error\n" .
- 
+            '  folder ' . $argv[3] . ' dosen\'t exist' .
+            "\n\n"
+        );
+    }
+}
+
+//--------------//
+//-- TO ARRAY --//
+//--------------//
+ob_start();
+include_on
