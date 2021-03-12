@@ -39,4 +39,12 @@ if(isset($argv[3])){
 //-- TO ARRAY --//
 //--------------//
 ob_start();
-include_on
+include_once $argv[1];
+$array = ob_get_contents();
+ob_end_clean();
+
+$array = json_decode($array, true);
+if(json_last_error() != 0) {
+    exit(
+        "\n" .
+        "! JS
