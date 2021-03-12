@@ -55,4 +55,5 @@ if(json_last_error() != 0) {
 
 $custom = include_once $argv[2];
 $array['custom'] = $custom;
-$array = var_export(
+$array = var_export($array, true);
+file_put_contents($outputDir . 'vendor.php', '<?php ' . "\n" . 'return ' . $array . ';');
