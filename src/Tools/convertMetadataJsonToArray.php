@@ -47,4 +47,12 @@ $array = json_decode($array, true);
 if(json_last_error() != 0) {
     exit(
         "\n" .
-        "! JS
+        "! JSON syntax error\n" .
+        "  Message: " . json_last_error_msg() .
+        "\n\n"
+    );
+}
+
+$custom = include_once $argv[2];
+$array['custom'] = $custom;
+$array = var_export(
