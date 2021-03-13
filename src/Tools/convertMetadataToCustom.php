@@ -13,3 +13,6 @@ if(
 ){
     exit(
         "\n" .
+        'Usage: php convertMetadataToCustom.php <path_to_metadata.json> <output_path_to_file> <base API URL>' . "\n" .
+        'Where:' . "\n" .
+       
