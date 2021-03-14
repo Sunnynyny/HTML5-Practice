@@ -17,4 +17,13 @@ if(
         'Where:' . "\n" .
         "    <path_to_metadata.json> is path to metadata file\n" .
         "    <output_path_to_file> is path to folder for output custom file\n" .
-        "    <base API URL> not requ
+        "    <base API URL> not required param, base api for vendor URL\n\n"
+    );
+}
+
+//---------------//
+//-- TO Custom --//
+//---------------//
+ob_start();
+include_once $argv[1];
+$array = ob_get_contents();
