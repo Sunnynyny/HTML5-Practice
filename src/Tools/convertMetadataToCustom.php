@@ -43,4 +43,13 @@ $outputDir = '';
 if(is_dir($argv[2])){
     $outputDir = rtrim($argv[2], '/\/');
     $outputDir .= DIRECTORY_SEPARATOR;
-}els
+}else{
+    exit(
+        "\n" .
+        "! Error\n" .
+        '  folder ' . $argv[2] . ' dosen\'t exist' .
+        "\n\n"
+    );
+}
+
+$baseApi = (isset($argv[3]) && st
