@@ -34,4 +34,13 @@ if(json_last_error() != 0) {
     exit(
         "\n" .
         "! JSON syntax error\n" .
-        "  Message: " . json_l
+        "  Message: " . json_last_error_msg() .
+        "\n\n"
+    );
+}
+
+$outputDir = '';
+if(is_dir($argv[2])){
+    $outputDir = rtrim($argv[2], '/\/');
+    $outputDir .= DIRECTORY_SEPARATOR;
+}els
