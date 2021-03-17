@@ -56,4 +56,8 @@ $baseApi = (isset($argv[3]) && strlen($argv[3])>0)?$argv[3]:'';
 $custom = [];
 foreach($array['blocks'] as $block){
     foreach($block['args'] as $arg) {
-        $custom[$block['name']]['dictionary'][$arg['
+        $custom[$block['name']]['dictionary'][$arg['name']] = $arg['name'];
+    }
+    $custom[$block['name']]['vendorUrl'] = $baseApi;
+    $custom[$block['name']]['method'] = 'POST';
+    $custom[$block['name']]['wrap'] 
