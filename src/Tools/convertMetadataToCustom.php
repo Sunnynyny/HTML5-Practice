@@ -60,4 +60,7 @@ foreach($array['blocks'] as $block){
     }
     $custom[$block['name']]['vendorUrl'] = $baseApi;
     $custom[$block['name']]['method'] = 'POST';
-    $custom[$block['name']]['wrap'] 
+    $custom[$block['name']]['wrap'] = '';
+}
+$custom = var_export($custom, true);
+file_put_contents($outputDir . 'custom.php', '<?php ' . "\n" . 'return ' . $custom . ';');
