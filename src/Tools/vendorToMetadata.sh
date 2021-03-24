@@ -1,3 +1,3 @@
 #!/bin/bash
 
-php src/T
+php src/Tools/convertMetadataArrayToJson.php src/metadata/vendor.php src/metadata/

@@ -1,0 +1,81 @@
+
+{
+  "package": "Coinbase",
+  "tagline": "Make bitcoin/ethereum transactions and get real-time data.",
+  "description": "Connect to the Coinbase Digital Currency API to make bitcoin/ethereum transactions and get real-time data. Test an API call and export the code into your app.",
+  "image": "https://logo.clearbit.com/coinbase.com?s=128",
+  "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-Coinbase-Package",
+  "keywords": [
+    "API",
+    "Bitcoin",
+    "Ethereum",
+    "Coinbase"
+  ],
+  "accounts": {
+    "domain": "coinbase.com",
+    "credentials": [
+      "clientId",
+      "clientSecret",
+      "apiKey",
+      "secretKey"
+    ]
+  },
+  "blocks": [
+    {
+      "name": "getAccessToken",
+      "description": "Geta access token.",
+      "args": [
+        {
+          "name": "clientId",
+          "type": "credentials",
+          "info": "Client identifier.",
+          "required": true
+        },
+        {
+          "name": "clientSecret",
+          "type": "credentials",
+          "info": "Client secret.",
+          "required": true
+        },
+        {
+          "name": "redirectUri",
+          "type": "String",
+          "info": "URL in your app where users will be sent after authorization.",
+          "required": true
+        },
+        {
+          "name": "code",
+          "type": "String",
+          "info": "A one-time use code that may be exchanged for a bearer token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "refreshAccessToken",
+      "description": "Refresh access token.",
+      "args": [
+        {
+          "name": "clientId",
+          "type": "credentials",
+          "info": "Client identifier.",
+          "required": true
+        },
+        {
+          "name": "clientSecret",
+          "type": "credentials",
+          "info": "Client secret.",
+          "required": true
+        },
+        {
+          "name": "refreshToken",
