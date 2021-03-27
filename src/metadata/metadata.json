@@ -79,3 +79,154 @@
         },
         {
           "name": "refreshToken",
+          "type": "String",
+          "info": "The refresh token retrieved during the initial request for an access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "revokeAccessToken",
+      "description": "RevokeAccessToken.",
+      "args": [
+        {
+          "name": "token",
+          "type": "String",
+          "info": "Active access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getNotifications",
+      "description": "Lists notifications where the current user was the subscriber. Scopes: wallet:notifications:read",
+      "args": [
+        {
+          "name": "apiKey",
+          "type": "String",
+          "info": "Your API Key.",
+          "required": true
+        },
+        {
+          "name": "secretKey",
+          "type": "String",
+          "info": "Your API Secret.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleNotification",
+      "description": "Show a notification for which the current user was a subsciber. Scopes: wallet:notifications:read",
+      "args": [
+        {
+          "name": "apiKey",
+          "type": "String",
+          "info": "Your API Key.",
+          "required": true
+        },
+        {
+          "name": "secretKey",
+          "type": "String",
+          "info": "Your API Secret.",
+          "required": true
+        },
+        {
+          "name": "notificationsId",
+          "type": "String",
+          "info": "Single notification identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getUser",
+      "description": "Get any user\u2019s public information with their ID.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "userId",
+          "type": "String",
+          "info": "User identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getMe",
+      "description": "Get current user\u2019s public information. Scope: wallet:user:read,wallet:user:email",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
