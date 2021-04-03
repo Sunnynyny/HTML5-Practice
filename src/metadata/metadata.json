@@ -548,3 +548,171 @@
         {
           "name": "error",
           "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "createAddress",
+      "description": "Creates a new address for an account. Scopes: wallet:addresses:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "info": "Address label.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getTransactions",
+      "description": "Lists account\u2019s transactions. Scopes: wallet:transactions:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleTransaction",
+      "description": "Show an individual transaction for an account. Scopes: wallet:transactions:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "transactionId",
+          "type": "String",
+          "info": "Transaction identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "sendMoney",
+      "description": "Send funds to a bitcoin address, ethereum address, or email address. Scopes: wallet:transactions:send",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "to",
+          "type": "String",
+          "info": "A bitcoin address, ethereum address, or an email of the recipient.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Amount to be sent.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "String",
+          "info": "Notes to be included in the email that the recipient receives.",
+          "required": false
+        },
+        {
+          "name": "skipNotifications",
+          "type": "Boolean",
+          "info": "Don\u2019t send notification emails for small amounts.",
+          "required": false
+        },
+        {
+          "name": "fee",
+          "type": "String",
+          "info": "Transaction fee in BTC if you would like to pay it.",
+          "required": false
+        },
+        {
+          "name": "idem",
+          "type": "String",
+          "info": "A token to ensure idempotence.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
