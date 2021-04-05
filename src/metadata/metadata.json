@@ -716,3 +716,186 @@
       ]
     },
     {
+      "name": "transferAccountsMoney",
+      "description": "Transfer bitcoin or ethereum between two of a user\u2019s accounts. Scopes: wallet:transactions:transfer",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "to",
+          "type": "String",
+          "info": "ID of the receiving account.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Amount to be transferred.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "String",
+          "info": "Notes to be included in the transfer.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "requestMoney",
+      "description": "Requests money from an email address. Scopes: wallet:transactions:request",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "to",
+          "type": "String",
+          "info": "An email of the recipient.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Amount to be requested.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "String",
+          "info": "Notes to be included in the email that the recipient receives.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "completeRequestMoney",
+      "description": "Lets the recipient of a money request complete the request by sending money to the user who requested the money. Scopes: wallet:transactions:request",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "transactionId",
+          "type": "String",
+          "info": "Transaction identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "resendMoneyRequest",
+      "description": "Lets the user resend a money request. Scopes: wallet:transactions:request",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "transactionId",
+          "type": "String",
+          "info": "Transaction identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "cancelRequestMoney",
+      "description": "Lets a user cancel a money request. Scopes: wallet:transactions:request",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
