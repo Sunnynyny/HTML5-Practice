@@ -899,3 +899,169 @@
         },
         {
           "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "transactionId",
+          "type": "String",
+          "info": "Transaction identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getBuys",
+      "description": "Lists buys for an account. Scopes: wallet:buys:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleBuy",
+      "description": "Show an individual buy. Scopes: wallet:buys:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "buyId",
+          "type": "String",
+          "info": "Individual buy identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "placeBuyOrder",
+      "description": "Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Buy amount without fees.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "total",
+          "type": "String",
+          "info": "Buy amount with fees (alternative to amount).",
+          "required": false
+        },
+        {
+          "name": "paymentMethod",
+          "type": "String",
+          "info": "The ID of the payment method that should be used for the buy.",
+          "required": false
+        },
+        {
+          "name": "agreeBtcAmountVaries",
+          "type": "Boolean",
+          "info": "Whether or not you would still like to buy if you have to wait for your money to arrive to lock in a price.",
+          "required": false
+        },
+        {
+          "name": "commit",
+          "type": "Boolean",
+          "info": "If set to false, this buy will not be immediately completed.",
+          "required": false
+        },
+        {
+          "name": "quote",
+          "type": "Boolean",
+          "info": "If set to true, response will return an unsave buy for detailed price quote.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "commitBuy",
+      "description": "Completes a buy that is created in commit: false state. Scopes: wallet:buys:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
