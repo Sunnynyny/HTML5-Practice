@@ -1065,3 +1065,164 @@
         },
         {
           "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "buyId",
+          "type": "String",
+          "info": "Individual buy identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSells",
+      "description": "Lists sells for an account. Scopes: wallet:sells:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleSell",
+      "description": "Show an individual sell. Scopes: wallet:sells:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "sellId",
+          "type": "String",
+          "info": "Individual sell identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "placeSellOrder",
+      "description": "Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Sell amount.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "total",
+          "type": "String",
+          "info": "Sell amount with fees.",
+          "required": false
+        },
+        {
+          "name": "paymentMethod",
+          "type": "String",
+          "info": "The ID of the payment method that should be used for the sell.",
+          "required": false
+        },
+        {
+          "name": "agreeBtcAmountVaries",
+          "type": "Boolean",
+          "info": "Whether or not you would still like to sell if you have to wait for your money to arrive to lock in a price.",
+          "required": false
+        },
+        {
+          "name": "quote",
+          "type": "Boolean",
+          "info": "f set to true, response will return an unsave sell for detailed price quote.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "commitSell",
+      "description": "Completes a sell that is created in commit: false state. Scopes: wallet:sells:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
