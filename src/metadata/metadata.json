@@ -1399,3 +1399,162 @@
       "name": "getWithdrawals",
       "description": "Lists withdrawals for an account. Scopes: wallet:withdrawals:read",
       "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleWithdrawal",
+      "description": "Show an individual withdrawal. Scopes: wallet:withdrawals:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "withdrawalId",
+          "type": "String",
+          "info": "Withdrawal identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "withdrawFunds",
+      "description": "Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withdrawals:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Withdrawal amount.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "paymentMethod",
+          "type": "String",
+          "info": "The ID of the payment method that should be used for the withdrawal.",
+          "required": true
+        },
+        {
+          "name": "commit",
+          "type": "Boolean",
+          "info": "If set to false, this withdrawal will not be immediately completed.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "commitWithdrawal",
+      "description": "Completes a withdrawal that is created in commit: false state. Scopes: wallet:withdrawals:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "withdrawalId",
+          "type": "String",
+          "info": "Withdrawal identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getPaymentMethods",
+      "description": "Lists current user\u2019s payment methods. Scopes: wallet:payment-methods:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
