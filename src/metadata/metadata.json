@@ -1226,3 +1226,176 @@
         {
           "name": "accountId",
           "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "sellId",
+          "type": "String",
+          "info": "Individual sell identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getDeposits",
+      "description": "Lists deposits for an account. Scopes: wallet:deposits:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleDeposit",
+      "description": "Show an individual deposit. Scopes: wallet:deposits:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "depositId",
+          "type": "String",
+          "info": "Deposit identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "depositFunds",
+      "description": "Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Deposit amount.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Currency for the amount.",
+          "required": true
+        },
+        {
+          "name": "paymentMethod",
+          "type": "String",
+          "info": "The ID of the payment method that should be used for the deposit.",
+          "required": true
+        },
+        {
+          "name": "commit",
+          "type": "Boolean",
+          "info": "If set to false, this deposit will not be immediately completed.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "commitDeposit",
+      "description": "Completes a deposit that is created in commit: false state. Scopes: wallet:deposits:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "accountId",
+          "type": "String",
+          "info": "Account identifier.",
+          "required": true
+        },
+        {
+          "name": "depositId",
+          "type": "String",
+          "info": "Deposit identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getWithdrawals",
+      "description": "Lists withdrawals for an account. Scopes: wallet:withdrawals:read",
+      "args": [
