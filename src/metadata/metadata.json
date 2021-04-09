@@ -1558,3 +1558,147 @@
         {
           "name": "error",
           "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSinglePaymentMethod",
+      "description": "Show current user\u2019s payment method. Scopes: wallet:payment-methods:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "paymentMethodId",
+          "type": "String",
+          "info": "Payment method identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleMerchant",
+      "description": "Get any merchant\u2019s information with their ID.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "merchantId",
+          "type": "String",
+          "info": "Merchant identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getOrders",
+      "description": "Lists the current user\u2019s (merchant) orders. Scopes: wallet:orders:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleOrder",
+      "description": "Show current merchant order. Scopes: wallet:orders:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "orderId",
+          "type": "String",
+          "info": "Order identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "createOrder",
+      "description": "Creates a new merchant order. Scopes: wallet:orders:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Order amount (price).",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Order amount\u2019s currency.",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "info": "Name of the order.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "String",
