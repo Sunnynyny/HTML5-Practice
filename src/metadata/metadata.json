@@ -1702,3 +1702,174 @@
         {
           "name": "description",
           "type": "String",
+          "info": "More detailed description of the order.",
+          "required": false
+        },
+        {
+          "name": "notificationsUrl",
+          "type": "String",
+          "info": "Order specific notification URL.",
+          "required": false
+        },
+        {
+          "name": "metadata",
+          "type": "JSON",
+          "info": "JSON Object. Developer defined key value pairs.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "refundOrder",
+      "description": "Refunds an order. Scopes: wallet:orders:refund",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "orderId",
+          "type": "String",
+          "info": "Order identifier.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "The currency to issue the refund in.",
+          "required": true
+        },
+        {
+          "name": "refundAddress",
+          "type": "String",
+          "info": "Must be a valid bitcoin address.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getCheckouts",
+      "description": "Lists current user\u2019s checkouts. Scopes: wallet:checkouts:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleCheckout",
+      "description": "Show current user\u2019s checkout. Scopes: wallet:checkouts:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "checkoutId",
+          "type": "String",
+          "info": "Checkout identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "createCheckout",
+      "description": "Creates a new merchant order checkout product. Scopes: wallet:checkouts:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "String",
+          "info": "Order amount (price).",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Order amount\u2019s currency.",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "info": "Name of the order.",
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "String",
+          "info": "Checkout\u2019s order type.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "String",
+          "info": "More detailed description of the checkout order.",
+          "required": false
+        },
+        {
+          "name": "style",
+          "type": "Select",
+          "options": ["buy_now_large", "buy_now_small", "donation_large", "donation_small", "custom_large", "custom_small"],
+          "info": "Style of a payment button. One of: buy_now_large, buy_now_small, donation_large, donation_small ,custom_large, custom_small.",
+          "required": false
+        },
+        {
+          "name": "customerDefinedAmount",
+          "type": "Boolean",
+          "info": "Allow customer to define the amount they are paying.",
+          "required": false
+        },
+        {
