@@ -1873,3 +1873,159 @@
           "required": false
         },
         {
+          "name": "amountPresets",
+          "type": "List",
+          "info": "Array of Strings, allow customer to select one of the predefined amount values.",
+          "required": false,
+          "structure": {
+            "name": "amountPreset",
+            "type": "String",
+            "info": "Single amountPreset"
+          }
+        },
+        {
+          "name": "successUrl",
+          "type": "String",
+          "info": "URL to which the customer is redirected after successful payment.",
+          "required": false
+        },
+        {
+          "name": "cancelUrl",
+          "type": "String",
+          "info": "URL to which the customer is redirected after they have canceled a payment.",
+          "required": false
+        },
+        {
+          "name": "notificationsUrl",
+          "type": "String",
+          "info": "Checkout specific notification URL.",
+          "required": false
+        },
+        {
+          "name": "autoRedirect",
+          "type": "Boolean",
+          "info": "Auto-redirect users to success or cancel url after payment.",
+          "required": false
+        },
+        {
+          "name": "collectShippingAddress",
+          "type": "Boolean",
+          "info": "Collect shipping address from customer.",
+          "required": false
+        },
+        {
+          "name": "collectEmail",
+          "type": "Boolean",
+          "info": "Collect email address from customer.",
+          "required": false
+        },
+        {
+          "name": "collectPhoneNumber",
+          "type": "Boolean",
+          "info": "Collect phone number from customer.",
+          "required": false
+        },
+        {
+          "name": "collectCountry",
+          "type": "Boolean",
+          "info": "Collect country from customer.",
+          "required": false
+        },
+        {
+          "name": "metadata",
+          "type": "JSON",
+          "info": "JSON Object. Developer defined key value pairs.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getCheckoutOrders",
+      "description": "Lists checkout product\u2019s orders. Scopes: wallet:checkouts:read",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "checkoutId",
+          "type": "String",
+          "info": "Checkout identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "createCheckoutOrder",
+      "description": "Creates a new order for a checkout. Scopes: wallet:checkouts:create",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "checkoutId",
+          "type": "String",
+          "info": "Checkout identifier.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getCurrencies",
+      "description": "List known currencies.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getExchangeRates",
