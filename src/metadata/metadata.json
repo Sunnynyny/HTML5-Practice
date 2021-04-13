@@ -2029,3 +2029,164 @@
     },
     {
       "name": "getExchangeRates",
+      "description": "Get current exchange rates.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "String",
+          "info": "Base currency (default: USD).",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getBuyPrice",
+      "description": "Get the total price to buy one bitcoin or ether.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "currencyPair",
+          "type": "String",
+          "info": "Currency pair. Example BTC-USD.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSellPrice",
+      "description": "Get the total price to sell one bitcoin or ether.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "currencyPair",
+          "type": "String",
+          "info": "Currency pair. Example BTC-USD.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSpotPrice",
+      "description": "Get the current market price for bitcoin.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "currencyPair",
+          "type": "String",
+          "info": "Currency pair. Example BTC-USD.",
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "DatePicker",
+          "info": "Specify date for historic spot price in format YYYY-MM-DD (UTC).",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getCurrentTime",
+      "description": "Get the API server time.",
+      "args": [],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "nextPage",
+      "description": "Retrieve next page for paginated blocks.",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "String",
+          "info": "Access token.",
+          "required": true
+        },
+        {
+          "name": "nextUri",
+          "type": "String",
+          "info": "Next page Uri, from pagination object in response.",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    }
+  ]
+}
