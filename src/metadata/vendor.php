@@ -21,4 +21,8 @@ return array (
     'blocks' => array (
         array (
             'name' => 'getAccessToken',
-     
+            'description' => 'Geta access token.',
+            'args' => array (
+                array (
+                    'name' => 'clientId',
+                 
