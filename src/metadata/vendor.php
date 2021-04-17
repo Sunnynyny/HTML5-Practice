@@ -10,4 +10,9 @@ return array (
             'API', 'Bitcoin', 'Ethereum', 'Coinbase',
         ),
     'accounts' => array (
-            'domain' => 'coinbas
+            'domain' => 'coinbase.com',
+            'credentials' => array (
+                    'clientId',
+                    'clientSecret',
+                    'apiKey',
+                    '
