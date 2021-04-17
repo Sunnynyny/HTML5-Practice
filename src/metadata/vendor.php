@@ -15,4 +15,10 @@ return array (
                     'clientId',
                     'clientSecret',
                     'apiKey',
-                    '
+                    'secretKey',
+                ),
+        ),
+    'blocks' => array (
+        array (
+            'name' => 'getAccessToken',
+     
