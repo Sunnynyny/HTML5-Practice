@@ -30,4 +30,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-   
+                    'name' => 'clientSecret',
+                    'type' => 'credentials',
+                    'info' => 'Client secret.',
+                   
