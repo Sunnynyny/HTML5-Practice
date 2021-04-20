@@ -33,4 +33,9 @@ return array (
                     'name' => 'clientSecret',
                     'type' => 'credentials',
                     'info' => 'Client secret.',
-                   
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'redirectUri',
+                    'type' => 'String',
+        
