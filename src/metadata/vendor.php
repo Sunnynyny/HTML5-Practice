@@ -41,4 +41,7 @@ return array (
                     'info' => 'URL in your app where users will be sent after authorization.',
                     'required' => true,
                 ),
-                array 
+                array (
+                    'name' => 'code',
+                    'type' => 'String',
+                    'info' => 'A one-time use code that may be exchanged for a bear
