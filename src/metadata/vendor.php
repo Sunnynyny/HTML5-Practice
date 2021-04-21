@@ -44,4 +44,10 @@ return array (
                 array (
                     'name' => 'code',
                     'type' => 'String',
-                    'info' => 'A one-time use code that may be exchanged for a bear
+                    'info' => 'A one-time use code that may be exchanged for a bearer token.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'refreshAccessToke
