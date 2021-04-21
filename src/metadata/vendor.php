@@ -38,4 +38,7 @@ return array (
                 array (
                     'name' => 'redirectUri',
                     'type' => 'String',
-        
+                    'info' => 'URL in your app where users will be sent after authorization.',
+                    'required' => true,
+                ),
+                array 
