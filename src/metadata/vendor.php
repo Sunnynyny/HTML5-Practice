@@ -59,4 +59,8 @@ return array (
                     'info' => 'Client identifier.',
                     'required' => true,
                 ),
-           
+                array (
+                    'name' => 'clientSecret',
+                    'type' => 'credentials',
+                    'info' => 'Client secret.',
+  
