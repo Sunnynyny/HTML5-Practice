@@ -55,4 +55,8 @@ return array (
             'args' => array (
                 array (
                     'name' => 'clientId',
-       
+                    'type' => 'credentials',
+                    'info' => 'Client identifier.',
+                    'required' => true,
+                ),
+           
