@@ -50,4 +50,9 @@ return array (
             ),
         ),
         array (
-            'name' => 'refreshAccessToke
+            'name' => 'refreshAccessToken',
+            'description' => 'Refresh access token.',
+            'args' => array (
+                array (
+                    'name' => 'clientId',
+       
