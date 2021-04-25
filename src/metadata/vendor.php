@@ -69,4 +69,11 @@ return array (
                     'name' => 'refreshToken',
                     'type' => 'String',
                     'info' => 'The refresh token retrieved during the initial request for an access token.',
-                    'required' => true
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'revokeAccessToken',
+            'description' => 'RevokeAccessToken.',
+ 
