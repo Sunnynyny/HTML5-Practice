@@ -63,4 +63,8 @@ return array (
                     'name' => 'clientSecret',
                     'type' => 'credentials',
                     'info' => 'Client secret.',
-  
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'refreshToken',
+                    'type' => 'S
