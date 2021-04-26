@@ -80,4 +80,10 @@ return array (
                 array (
                     'name' => 'token',
                     'type' => 'String',
-                    'info' => '
+                    'info' => 'Active access token.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => '
