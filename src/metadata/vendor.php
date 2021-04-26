@@ -86,4 +86,5 @@ return array (
             ),
         ),
         array (
-            'name' => '
+            'name' => 'getNotifications',
+            'description' => 'Lists notifications where the current user was the subscriber. Scopes: wallet:notifications:read',
