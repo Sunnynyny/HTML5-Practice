@@ -76,4 +76,8 @@ return array (
         array (
             'name' => 'revokeAccessToken',
             'description' => 'RevokeAccessToken.',
- 
+            'args' => array (
+                array (
+                    'name' => 'token',
+                    'type' => 'String',
+                    'info' => '
