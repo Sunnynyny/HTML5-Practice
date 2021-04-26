@@ -88,3 +88,8 @@ return array (
         array (
             'name' => 'getNotifications',
             'description' => 'Lists notifications where the current user was the subscriber. Scopes: wallet:notifications:read',
+            'args' => array (
+                array (
+                    'name' => 'apiKey',
+                    'type' => 'String',
+             
