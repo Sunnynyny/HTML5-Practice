@@ -92,4 +92,9 @@ return array (
                 array (
                     'name' => 'apiKey',
                     'type' => 'String',
-             
+                    'info' => 'Your API Key.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'secretKey',
+  
