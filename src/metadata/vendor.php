@@ -97,4 +97,7 @@ return array (
                 ),
                 array (
                     'name' => 'secretKey',
-  
+                    'type' => 'String',
+                    'info' => 'Your API Secret.',
+                    'required' => true,
+                )
