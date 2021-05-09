@@ -112,4 +112,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Your API Key.',
                     'required' => true,
-          
+                ),
+                array (
+                    'name' => 'secretKey',
+                    'type' => 'String',
+                    'info' => 'Your API Secret.',
