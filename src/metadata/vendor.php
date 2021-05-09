@@ -100,4 +100,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Your API Secret.',
                     'required' => true,
-                )
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSingleNotification',
+            'description' => 'Show a notification for which the c
