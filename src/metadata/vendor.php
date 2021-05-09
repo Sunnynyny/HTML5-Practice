@@ -108,4 +108,8 @@ return array (
             'description' => 'Show a notification for which the current user was a subsciber. Scopes: wallet:notifications:read',
             'args' => array (
                 array (
-                    'name
+                    'name' => 'apiKey',
+                    'type' => 'String',
+                    'info' => 'Your API Key.',
+                    'required' => true,
+          
