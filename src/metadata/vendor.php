@@ -105,4 +105,7 @@ return array (
         ),
         array (
             'name' => 'getSingleNotification',
-            'description' => 'Show a notification for which the c
+            'description' => 'Show a notification for which the current user was a subsciber. Scopes: wallet:notifications:read',
+            'args' => array (
+                array (
+                    'name
