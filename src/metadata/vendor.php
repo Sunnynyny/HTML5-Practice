@@ -117,3 +117,8 @@ return array (
                     'name' => 'secretKey',
                     'type' => 'String',
                     'info' => 'Your API Secret.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'notificationsId',
+                    'type' 
