@@ -121,4 +121,10 @@ return array (
                 ),
                 array (
                     'name' => 'notificationsId',
-                    'type' 
+                    'type' => 'String',
+                    'info' => 'Single notification identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+     
