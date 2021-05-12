@@ -127,4 +127,7 @@ return array (
                 ),
             ),
         ),
-     
+        array (
+            'name' => 'getUser',
+            'description' => 'Get any user’s public information with their ID.',
+            'args' => 
