@@ -130,4 +130,9 @@ return array (
         array (
             'name' => 'getUser',
             'description' => 'Get any user’s public information with their ID.',
-            'args' => 
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+              
