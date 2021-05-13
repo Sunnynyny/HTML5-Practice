@@ -135,4 +135,9 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-              
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'userId',
+                    'type' => 'String',
+                    'in
