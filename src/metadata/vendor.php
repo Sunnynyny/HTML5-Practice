@@ -140,4 +140,11 @@ return array (
                 array (
                     'name' => 'userId',
                     'type' => 'String',
-                    'in
+                    'info' => 'User identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getMe',
+           
