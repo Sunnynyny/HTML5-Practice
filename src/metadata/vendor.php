@@ -147,4 +147,7 @@ return array (
         ),
         array (
             'name' => 'getMe',
-           
+            'description' => 'Get current user’s public information. Scope: wallet:user:read,wallet:user:email',
+            'args' => array (
+                array (
+            
