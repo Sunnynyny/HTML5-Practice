@@ -150,4 +150,8 @@ return array (
             'description' => 'Get current user’s public information. Scope: wallet:user:read,wallet:user:email',
             'args' => array (
                 array (
-            
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+ 
