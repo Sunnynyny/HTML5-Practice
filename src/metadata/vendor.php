@@ -154,4 +154,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Access token.',
                     'required' => true,
- 
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getMyAuthInfo',
+            'description' => 'Get current user’s authorization i
