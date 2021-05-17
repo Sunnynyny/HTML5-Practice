@@ -169,4 +169,7 @@ return array (
                 ),
             ),
         ),
-        a
+        array (
+            'name' => 'updateMe',
+            'description' => 'Modify current user and their preferences. Scope: wallet:user:update',
+      
