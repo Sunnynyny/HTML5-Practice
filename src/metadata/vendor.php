@@ -159,4 +159,8 @@ return array (
         ),
         array (
             'name' => 'getMyAuthInfo',
-            'description' => 'Get current user’s authorization i
+            'description' => 'Get current user’s authorization information including granted scopes.',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+             
