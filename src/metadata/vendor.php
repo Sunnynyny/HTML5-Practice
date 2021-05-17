@@ -163,4 +163,10 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessToken',
-             
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        a
