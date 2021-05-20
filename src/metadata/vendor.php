@@ -172,4 +172,8 @@ return array (
         array (
             'name' => 'updateMe',
             'description' => 'Modify current user and their preferences. Scope: wallet:user:update',
-      
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' =>
