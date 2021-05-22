@@ -176,4 +176,9 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-                    'info' =>
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'name',
+               
