@@ -181,4 +181,8 @@ return array (
                 ),
                 array (
                     'name' => 'name',
-               
+                    'type' => 'String',
+                    'info' => 'User’s public name.',
+                    'required' => false,
+                ),
+                array
