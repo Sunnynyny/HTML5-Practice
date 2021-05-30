@@ -190,4 +190,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Time zone.',
                     'required' => false,
-      
+                ),
+                array (
+                    'name' => 'nativeCurrency',
+                    'type' => 'String',
+                    'inf
