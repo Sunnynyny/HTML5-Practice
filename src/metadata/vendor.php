@@ -185,4 +185,9 @@ return array (
                     'info' => 'User’s public name.',
                     'required' => false,
                 ),
-                array
+                array (
+                    'name' => 'timeZone',
+                    'type' => 'String',
+                    'info' => 'Time zone.',
+                    'required' => false,
+      
