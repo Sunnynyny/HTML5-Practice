@@ -194,4 +194,9 @@ return array (
                 array (
                     'name' => 'nativeCurrency',
                     'type' => 'String',
-                    'inf
+                    'info' => 'Local currency used to display amounts converted from BTC.',
+                    'required' => false,
+                ),
+            ),
+        ),
+   
