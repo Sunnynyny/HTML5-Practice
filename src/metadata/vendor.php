@@ -199,4 +199,6 @@ return array (
                 ),
             ),
         ),
-   
+        array (
+            'name' => 'getAccounts',
+            'description' => 'Lists current user’s accounts to which the authentication method has access to. Sc
