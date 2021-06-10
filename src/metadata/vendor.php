@@ -201,4 +201,9 @@ return array (
         ),
         array (
             'name' => 'getAccounts',
-            'description' => 'Lists current user’s accounts to which the authentication method has access to. Sc
+            'description' => 'Lists current user’s accounts to which the authentication method has access to. Scope: wallet:accounts:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+          
