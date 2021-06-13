@@ -216,4 +216,8 @@ return array (
             'description' => 'Show current user’s account. Scopes: wallet:accounts:read',
             'args' => array (
                 array (
-                    'name
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+           
