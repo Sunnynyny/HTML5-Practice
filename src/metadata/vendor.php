@@ -212,4 +212,8 @@ return array (
             ),
         ),
         array (
-            'name' => 'getSingl
+            'name' => 'getSingleAccount',
+            'description' => 'Show current user’s account. Scopes: wallet:accounts:read',
+            'args' => array (
+                array (
+                    'name
