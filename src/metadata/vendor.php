@@ -224,4 +224,11 @@ return array (
                 array (
                     'name' => 'accountId',
                     'type' => 'String',
-                    'info' => 'Current user acco
+                    'info' => 'Current user account identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'createAccount',
+     
