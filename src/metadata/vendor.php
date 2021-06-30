@@ -231,4 +231,7 @@ return array (
         ),
         array (
             'name' => 'createAccount',
-     
+            'description' => 'Creates a new account for user. Scopes: wallet:accounts:create',
+            'args' => array (
+                array (
+         
