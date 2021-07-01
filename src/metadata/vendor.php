@@ -234,4 +234,8 @@ return array (
             'description' => 'Creates a new account for user. Scopes: wallet:accounts:create',
             'args' => array (
                 array (
-         
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+             
