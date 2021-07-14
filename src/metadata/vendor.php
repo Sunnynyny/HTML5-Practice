@@ -238,4 +238,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Access token.',
                     'required' => true,
-             
+                ),
+                array (
+                    'name' => 'name',
+                    'type' => 'String',
+                    'info' => 'Account na
