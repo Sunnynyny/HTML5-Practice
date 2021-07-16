@@ -242,4 +242,10 @@ return array (
                 array (
                     'name' => 'name',
                     'type' => 'String',
-                    'info' => 'Account na
+                    'info' => 'Account name.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'setAccountAsPrima
