@@ -248,4 +248,7 @@ return array (
             ),
         ),
         array (
-            'name' => 'setAccountAsPrima
+            'name' => 'setAccountAsPrimary',
+            'description' => 'Promote an account as primary account. Scopes: wallet:accounts:update',
+            'args' => array (
+                arra
