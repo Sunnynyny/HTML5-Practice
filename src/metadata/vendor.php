@@ -268,4 +268,8 @@ return array (
         array (
             'name' => 'updateAccount',
             'description' => 'UpdateAccount. Scopes: wallet:accounts:update',
-            'args' => array 
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' =>
