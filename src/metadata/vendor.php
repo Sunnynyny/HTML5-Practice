@@ -285,4 +285,10 @@ return array (
                     'name' => 'name',
                     'type' => 'String',
                     'info' => 'Account name',
-           
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'deleteAccount',
+            'description' => 'Removes user’s account. Scope
