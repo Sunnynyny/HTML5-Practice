@@ -281,4 +281,8 @@ return array (
                     'info' => 'Account identifier.',
                     'required' => true,
                 ),
-                
+                array (
+                    'name' => 'name',
+                    'type' => 'String',
+                    'info' => 'Account name',
+           
