@@ -291,4 +291,8 @@ return array (
         ),
         array (
             'name' => 'deleteAccount',
-            'description' => 'Removes user’s account. Scope
+            'description' => 'Removes user’s account. Scopes: wallet:accounts:delete',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    '
