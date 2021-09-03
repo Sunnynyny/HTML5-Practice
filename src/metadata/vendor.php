@@ -309,4 +309,7 @@ return array (
         ),
         array (
             'name' => 'getAddresses',
-            'descrip
+            'description' => 'Lists addresses for an account. Scopes: wallet:addresses:read',
+            'args' => array (
+                array (
+          
