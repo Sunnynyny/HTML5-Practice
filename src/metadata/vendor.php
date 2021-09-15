@@ -312,4 +312,7 @@ return array (
             'description' => 'Lists addresses for an account. Scopes: wallet:addresses:read',
             'args' => array (
                 array (
-          
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'req
