@@ -315,4 +315,9 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-                    'req
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'accountId',
+                    'type' => 'String',
+              
