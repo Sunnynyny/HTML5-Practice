@@ -327,4 +327,7 @@ return array (
         ),
         array (
             'name' => 'getSingleAddress',
-     
+            'description' => 'GetSingleAddress. Scopes: wallet:addresses:read',
+            'args' => array (
+                array (
+                    'name
