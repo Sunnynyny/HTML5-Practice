@@ -330,4 +330,8 @@ return array (
             'description' => 'GetSingleAddress. Scopes: wallet:addresses:read',
             'args' => array (
                 array (
-                    'name
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+ 
