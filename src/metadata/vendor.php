@@ -342,4 +342,9 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name' => 'addressId
+                    'name' => 'addressId',
+                    'type' => 'String',
+                    'info' => 'Address identifier.',
+                    'required' => true,
+                ),
+  
