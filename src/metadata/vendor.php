@@ -338,4 +338,8 @@ return array (
                 array (
                     'name' => 'accountId',
                     'type' => 'String',
-                    'info' => '
+                    'info' => 'Account identifier.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'addressId
