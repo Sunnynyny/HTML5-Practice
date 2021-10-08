@@ -347,4 +347,8 @@ return array (
                     'info' => 'Address identifier.',
                     'required' => true,
                 ),
-  
+            ),
+        ),
+        array (
+            'name' => 'getAddressTransactions',
+            'description' => 'List transactions that have been sent to a 
