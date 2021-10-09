@@ -351,4 +351,8 @@ return array (
         ),
         array (
             'name' => 'getAddressTransactions',
-            'description' => 'List transactions that have been sent to a 
+            'description' => 'List transactions that have been sent to a specific address. Scopes: wallet:transactions:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' =
