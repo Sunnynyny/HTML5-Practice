@@ -355,4 +355,9 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessToken',
-                    'type' =
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'n
