@@ -360,4 +360,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'n
+                    'name' => 'accountId',
+                    'type' => 'String',
+                    'info' => 'Account identifier.',
+                    'required' => true,
+   
