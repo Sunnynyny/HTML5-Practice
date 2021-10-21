@@ -368,4 +368,10 @@ return array (
                 array (
                     'name' => 'addressId',
                     'type' => 'String',
-                    'info' => 'Ad
+                    'info' => 'Address identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 
