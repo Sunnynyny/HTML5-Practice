@@ -374,4 +374,8 @@ return array (
             ),
         ),
         array (
-            'name' => 
+            'name' => 'createAddress',
+            'description' => 'Creates a new address for an account. Scopes: wallet:addresses:create',
+            'args' => array (
+                array (
+  
