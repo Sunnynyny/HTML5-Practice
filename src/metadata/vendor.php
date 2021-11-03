@@ -378,4 +378,7 @@ return array (
             'description' => 'Creates a new address for an account. Scopes: wallet:addresses:create',
             'args' => array (
                 array (
-  
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => 
