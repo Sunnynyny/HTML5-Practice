@@ -391,4 +391,8 @@ return array (
                 ),
                 array (
                     'name' => 'name',
-                 
+                    'type' => 'String',
+                    'info' => 'Address label.',
+                    'required' => true,
+                ),
+            
