@@ -395,4 +395,8 @@ return array (
                     'info' => 'Address label.',
                     'required' => true,
                 ),
-            
+            ),
+        ),
+        array (
+            'name' => 'getTransactions',
+            'description' => 'Lists account’s transactions. Scopes: wallet:tr
