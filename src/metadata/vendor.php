@@ -399,4 +399,8 @@ return array (
         ),
         array (
             'name' => 'getTransactions',
-            'description' => 'Lists account’s transactions. Scopes: wallet:tr
+            'description' => 'Lists account’s transactions. Scopes: wallet:transactions:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => '
