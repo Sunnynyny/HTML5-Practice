@@ -432,4 +432,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-        
+                    'name' => 'transactionId',
+                    'type' => 'String',
+                    'info' => 'Transaction identifier.',
+                    'required' => true,
