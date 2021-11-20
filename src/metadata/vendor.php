@@ -436,3 +436,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Transaction identifier.',
                     'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'sendMoney',
+            'description' => 'Send funds to a bitcoin address,
