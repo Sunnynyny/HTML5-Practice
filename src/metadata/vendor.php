@@ -418,4 +418,8 @@ return array (
         array (
             'name' => 'getSingleTransaction',
             'description' => 'Show an individual transaction for an account. Scopes: wallet:transactions:read',
-   
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'inf
