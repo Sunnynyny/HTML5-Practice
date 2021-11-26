@@ -441,4 +441,7 @@ return array (
         ),
         array (
             'name' => 'sendMoney',
-            'description' => 'Send funds to a bitcoin address,
+            'description' => 'Send funds to a bitcoin address, ethereum address, or email address. Scopes: wallet:transactions:send',
+            'args' => array (
+                array (
+                    '
