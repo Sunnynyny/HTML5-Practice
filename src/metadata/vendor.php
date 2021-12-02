@@ -448,4 +448,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Access token.',
                     'required' => true,
-     
+                ),
+                array (
+                    'name' => 'to',
+                    'type' => 'String',
+                    'info' => 'A bitcoin a
