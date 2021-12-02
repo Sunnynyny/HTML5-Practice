@@ -444,4 +444,8 @@ return array (
             'description' => 'Send funds to a bitcoin address, ethereum address, or email address. Scopes: wallet:transactions:send',
             'args' => array (
                 array (
-                    '
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+     
