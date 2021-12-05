@@ -452,4 +452,8 @@ return array (
                 array (
                     'name' => 'to',
                     'type' => 'String',
-                    'info' => 'A bitcoin a
+                    'info' => 'A bitcoin address, ethereum address, or an email of the recipient.',
+                    'required' => true,
+                ),
+                array (
+                    '
