@@ -461,4 +461,7 @@ return array (
                     'info' => 'Amount to be sent.',
                     'required' => true,
                 ),
- 
+                array (
+                    'name' => 'currency',
+                    'type' => 'String',
+                    'info' => 'Currency for 
