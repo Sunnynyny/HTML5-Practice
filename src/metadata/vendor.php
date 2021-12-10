@@ -456,4 +456,9 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    '
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'info' => 'Amount to be sent.',
+                    'required' => true,
+                ),
+ 
