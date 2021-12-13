@@ -473,4 +473,7 @@ return array (
                     'info' => 'Notes to be included in the email that the recipient receives.',
                     'required' => false,
                 ),
-      
+                array (
+                    'name' => 'skipNotifications',
+                    'type' => 'Boolean',
+                    'info' => 'Don’t send notification emails for 
