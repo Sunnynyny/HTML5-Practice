@@ -481,4 +481,8 @@ return array (
                 ),
                 array (
                     'name' => 'fee',
-                    'type' => 'Str
+                    'type' => 'String',
+                    'info' => 'Transaction fee in BTC if you would like to pay it.',
+                    'required' => false,
+                ),
+                arr
