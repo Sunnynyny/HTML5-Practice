@@ -476,4 +476,9 @@ return array (
                 array (
                     'name' => 'skipNotifications',
                     'type' => 'Boolean',
-                    'info' => 'Don’t send notification emails for 
+                    'info' => 'Don’t send notification emails for small amounts.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'fee',
+                    'type' => 'Str
