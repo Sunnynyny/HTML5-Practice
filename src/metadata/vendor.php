@@ -494,4 +494,7 @@ return array (
             ),
         ),
         array (
-            'name' => 'transferAccountsMo
+            'name' => 'transferAccountsMoney',
+            'description' => 'Transfer bitcoin or ethereum between two of a user’s accounts. Scopes: wallet:transactions:transfer',
+            'args' => array (
+                ar
