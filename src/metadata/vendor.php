@@ -485,4 +485,7 @@ return array (
                     'info' => 'Transaction fee in BTC if you would like to pay it.',
                     'required' => false,
                 ),
-                arr
+                array (
+                    'name' => 'idem',
+                    'type' => 'String',
+                    'info' => 'A token to ensure idempotence.'
