@@ -515,4 +515,7 @@ return array (
                     'info' => 'ID of the receiving account.',
                     'required' => true,
                 ),
-              
+                array (
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'info' => 'Amount to be transferred.'
