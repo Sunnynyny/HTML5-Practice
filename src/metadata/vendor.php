@@ -511,4 +511,8 @@ return array (
                 ),
                 array (
                     'name' => 'to',
-     
+                    'type' => 'String',
+                    'info' => 'ID of the receiving account.',
+                    'required' => true,
+                ),
+              
