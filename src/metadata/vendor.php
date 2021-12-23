@@ -518,4 +518,9 @@ return array (
                 array (
                     'name' => 'amount',
                     'type' => 'String',
-                    'info' => 'Amount to be transferred.'
+                    'info' => 'Amount to be transferred.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'currency',
+                    'type
