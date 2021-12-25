@@ -530,4 +530,10 @@ return array (
                 array (
                     'name' => 'description',
                     'type' => 'String',
-                    'info' => 'Notes to be included 
+                    'info' => 'Notes to be included in the transfer.',
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            'name' 
