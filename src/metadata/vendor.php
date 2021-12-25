@@ -527,4 +527,7 @@ return array (
                     'info' => 'Currency for the amount.',
                     'required' => true,
                 ),
-           
+                array (
+                    'name' => 'description',
+                    'type' => 'String',
+                    'info' => 'Notes to be included 
