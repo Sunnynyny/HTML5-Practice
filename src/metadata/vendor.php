@@ -539,4 +539,7 @@ return array (
             'name' => 'requestMoney',
             'description' => 'Requests money from an email address. Scopes: wallet:transactions:request',
             'args' => array (
- 
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
