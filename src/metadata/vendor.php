@@ -536,4 +536,7 @@ return array (
             ),
         ),
         array (
-            'name' 
+            'name' => 'requestMoney',
+            'description' => 'Requests money from an email address. Scopes: wallet:transactions:request',
+            'args' => array (
+ 
