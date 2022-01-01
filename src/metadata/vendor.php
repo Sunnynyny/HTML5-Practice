@@ -560,4 +560,8 @@ return array (
                 array (
                     'name' => 'amount',
                     'type' => 'String',
-     
+                    'info' => 'Amount to be requested.',
+                    'required' => true,
+                ),
+                array (
+           
