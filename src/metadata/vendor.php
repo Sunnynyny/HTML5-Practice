@@ -552,4 +552,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-       
+                    'name' => 'to',
+                    'type' => 'String',
+                    'info' => 'An email of the recipient.',
+                    'requi
