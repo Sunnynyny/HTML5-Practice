@@ -555,4 +555,9 @@ return array (
                     'name' => 'to',
                     'type' => 'String',
                     'info' => 'An email of the recipient.',
-                    'requi
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'amount',
+                    'type' => 'String',
+     
