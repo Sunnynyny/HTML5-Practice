@@ -567,4 +567,9 @@ return array (
                     'name' => 'currency',
                     'type' => 'String',
                     'info' => 'Currency for the amount.',
-                 
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'description',
+                    'type' => 'String',
+              
