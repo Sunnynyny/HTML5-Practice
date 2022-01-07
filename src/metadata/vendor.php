@@ -572,4 +572,9 @@ return array (
                 array (
                     'name' => 'description',
                     'type' => 'String',
-              
+                    'info' => 'Notes to be included in the email that the recipient receives.',
+                    'required' => false,
+                ),
+            ),
+        ),
+      
