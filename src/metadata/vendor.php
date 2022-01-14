@@ -579,4 +579,8 @@ return array (
         ),
         array (
             'name' => 'completeRequestMoney',
-            'description' => 'Lets the recipient of a money request complete the request by sending money to the user w
+            'description' => 'Lets the recipient of a money request complete the request by sending money to the user who requested the money. Scopes: wallet:transactions:request',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+              
