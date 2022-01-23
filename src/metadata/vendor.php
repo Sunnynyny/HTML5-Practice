@@ -596,4 +596,10 @@ return array (
                 array (
                     'name' => 'transactionId',
                     'type' => 'String',
-        
+                    'info' => 'Transaction identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' =
