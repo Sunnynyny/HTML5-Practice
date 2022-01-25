@@ -602,4 +602,6 @@ return array (
             ),
         ),
         array (
-            'name' =
+            'name' => 'resendMoneyRequest',
+            'description' => 'Lets the user resend a money request. Scopes: wallet:transactions:request',
+            'args' => arr
