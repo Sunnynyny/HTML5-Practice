@@ -604,4 +604,8 @@ return array (
         array (
             'name' => 'resendMoneyRequest',
             'description' => 'Lets the user resend a money request. Scopes: wallet:transactions:request',
-            'args' => arr
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Acce
