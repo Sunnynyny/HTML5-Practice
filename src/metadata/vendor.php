@@ -617,4 +617,8 @@ return array (
                     'info' => 'Account identifier.',
                     'required' => true,
                 ),
-                
+                array (
+                    'name' => 'transactionId',
+                    'type' => 'String',
+                    'info' => 'Transaction identifier.',
+                    'requir
