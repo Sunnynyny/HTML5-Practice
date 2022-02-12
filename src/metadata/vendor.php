@@ -621,4 +621,10 @@ return array (
                     'name' => 'transactionId',
                     'type' => 'String',
                     'info' => 'Transaction identifier.',
-                    'requir
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'cancelRequestMoney',
+            'description' => '
