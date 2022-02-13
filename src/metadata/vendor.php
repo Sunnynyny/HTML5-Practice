@@ -627,4 +627,8 @@ return array (
         ),
         array (
             'name' => 'cancelRequestMoney',
-            'description' => '
+            'description' => 'Lets a user cancel a money request. Scopes: wallet:transactions:request',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                
