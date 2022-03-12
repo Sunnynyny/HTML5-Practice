@@ -651,3 +651,7 @@ return array (
         ),
         array (
             'name' => 'getBuys',
+            'description' => 'Lists buys for an account. Scopes: wallet:buys:read',
+            'args' => array (
+                array (
+                    'n
