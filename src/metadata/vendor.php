@@ -662,4 +662,11 @@ return array (
                 array (
                     'name' => 'accountId',
                     'type' => 'String',
-                    'info' => 'Account ident
+                    'info' => 'Account identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSingleBuy',
+            'd
