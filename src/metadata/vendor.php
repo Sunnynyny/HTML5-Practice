@@ -669,4 +669,7 @@ return array (
         ),
         array (
             'name' => 'getSingleBuy',
-            'd
+            'description' => 'Show an individual buy. Scopes: wallet:buys:read',
+            'args' => array (
+                array (
+                    '
