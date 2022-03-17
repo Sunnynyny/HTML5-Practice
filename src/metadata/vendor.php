@@ -654,4 +654,8 @@ return array (
             'description' => 'Lists buys for an account. Scopes: wallet:buys:read',
             'args' => array (
                 array (
-                    'n
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+                )
