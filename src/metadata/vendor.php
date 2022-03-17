@@ -658,4 +658,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Access token.',
                     'required' => true,
-                )
+                ),
+                array (
+                    'name' => 'accountId',
+                    'type' => 'String',
+                    'info' => 'Account ident
