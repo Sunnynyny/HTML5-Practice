@@ -680,4 +680,9 @@ return array (
                 array (
                     'name' => 'accountId',
                     'type' => 'String',
-                    'info' => 'Account identif
+                    'info' => 'Account identifier.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'buyId',
+                    'type' 
