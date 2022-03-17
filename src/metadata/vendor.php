@@ -672,4 +672,8 @@ return array (
             'description' => 'Show an individual buy. Scopes: wallet:buys:read',
             'args' => array (
                 array (
-                    '
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
