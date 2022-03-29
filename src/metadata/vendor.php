@@ -685,4 +685,10 @@ return array (
                 ),
                 array (
                     'name' => 'buyId',
-                    'type' 
+                    'type' => 'String',
+                    'info' => 'Individual buy identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+     
