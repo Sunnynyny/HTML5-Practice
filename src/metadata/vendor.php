@@ -691,4 +691,6 @@ return array (
                 ),
             ),
         ),
-     
+        array (
+            'name' => 'placeBuyOrder',
+            'description' => 'Buys a user-defined amount of bitcoin or ethereum. Scopes: walle
