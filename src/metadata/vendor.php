@@ -693,4 +693,8 @@ return array (
         ),
         array (
             'name' => 'placeBuyOrder',
-            'description' => 'Buys a user-defined amount of bitcoin or ethereum. Scopes: walle
+            'description' => 'Buys a user-defined amount of bitcoin or ethereum. Scopes: wallet:buys:create',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
