@@ -705,4 +705,9 @@ return array (
                     'name' => 'accountId',
                     'type' => 'String',
                     'info' => 'Account identifier.',
-                    'req
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'amount',
+                    'type' => 'String',
+                 
