@@ -718,4 +718,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Currency for the amount.',
                     'required' => true,
-       
+                ),
+                array (
+                    'name' => 'total',
+                    'type' => 'String',
+                    'info' => 'Buy 
