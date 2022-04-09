@@ -710,4 +710,8 @@ return array (
                 array (
                     'name' => 'amount',
                     'type' => 'String',
-                 
+                    'info' => 'Buy amount without fees.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'curre
