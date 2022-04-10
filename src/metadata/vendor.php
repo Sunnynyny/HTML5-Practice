@@ -722,4 +722,8 @@ return array (
                 array (
                     'name' => 'total',
                     'type' => 'String',
-                    'info' => 'Buy 
+                    'info' => 'Buy amount with fees (alternative to amount).',
+                    'required' => false,
+                ),
+                array (
+                   
