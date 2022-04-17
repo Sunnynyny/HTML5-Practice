@@ -733,4 +733,5 @@ return array (
                 ),
                 array (
                     'name' => 'agreeBtcAmountVaries',
-      
+                    'type' => 'Boolean',
+                    'info' => 'Whether or not you would still like to buy if you have to wait for your money t
