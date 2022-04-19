@@ -739,3 +739,6 @@ return array (
                 ),
                 array (
                     'name' => 'commit',
+                    'type' => 'Boolean',
+                    'info' => 'If set to false, this buy will not be immediately completed.',
+                    'req
