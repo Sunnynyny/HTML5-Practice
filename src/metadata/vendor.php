@@ -741,4 +741,9 @@ return array (
                     'name' => 'commit',
                     'type' => 'Boolean',
                     'info' => 'If set to false, this buy will not be immediately completed.',
-                    'req
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'quote',
+                    'type' => 'Boolean',
+                    'info
