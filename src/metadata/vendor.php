@@ -734,4 +734,8 @@ return array (
                 array (
                     'name' => 'agreeBtcAmountVaries',
                     'type' => 'Boolean',
-                    'info' => 'Whether or not you would still like to buy if you have to wait for your money t
+                    'info' => 'Whether or not you would still like to buy if you have to wait for your money to arrive to lock in a price.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'commit',
