@@ -746,4 +746,8 @@ return array (
                 array (
                     'name' => 'quote',
                     'type' => 'Boolean',
-                    'info
+                    'info' => 'If set to true, response will return an unsave buy for detailed price quote.',
+                    'required' => false,
+                ),
+            ),
+       
