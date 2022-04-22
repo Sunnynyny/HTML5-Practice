@@ -753,4 +753,8 @@ return array (
         ),
         array (
             'name' => 'commitBuy',
-            'description' => 'Completes a buy that is created in commit: false state. Scopes: wa
+            'description' => 'Completes a buy that is created in commit: false state. Scopes: wallet:buys:create',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
