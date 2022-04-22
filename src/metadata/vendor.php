@@ -750,4 +750,7 @@ return array (
                     'required' => false,
                 ),
             ),
-       
+        ),
+        array (
+            'name' => 'commitBuy',
+            'description' => 'Completes a buy that is created in commit: false state. Scopes: wa
