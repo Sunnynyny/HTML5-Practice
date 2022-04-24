@@ -767,4 +767,8 @@ return array (
                     'info' => 'Account identifier.',
                     'required' => true,
                 ),
-                arr
+                array (
+                    'name' => 'buyId',
+                    'type' => 'String',
+                    'info' => 'Individual buy identifier.',
+         
