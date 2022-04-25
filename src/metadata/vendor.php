@@ -771,4 +771,10 @@ return array (
                     'name' => 'buyId',
                     'type' => 'String',
                     'info' => 'Individual buy identifier.',
-         
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSells',
+            'description' => 'List
