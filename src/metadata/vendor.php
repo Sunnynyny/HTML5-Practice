@@ -777,4 +777,8 @@ return array (
         ),
         array (
             'name' => 'getSells',
-            'description' => 'List
+            'description' => 'Lists sells for an account. Scopes: wallet:sells:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+      
