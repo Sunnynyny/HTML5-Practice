@@ -803,4 +803,8 @@ return array (
                     'info' => 'Access token.',
                     'required' => true,
                 ),
-         
+                array (
+                    'name' => 'accountId',
+                    'type' => 'String',
+                    'info' => 'Account identifier.',
+                   
