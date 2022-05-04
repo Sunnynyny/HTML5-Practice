@@ -795,4 +795,8 @@ return array (
         ),
         array (
             'name' => 'getSingleSell',
-            'description' 
+            'description' => 'Show an individual sell. Scopes: wallet:sells:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+           
