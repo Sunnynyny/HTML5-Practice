@@ -811,4 +811,10 @@ return array (
                 ),
                 array (
                     'name' => 'sellId',
-                    'type' => 'String
+                    'type' => 'String',
+                    'info' => 'Individual sell identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+   
