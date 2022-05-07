@@ -820,4 +820,8 @@ return array (
         array (
             'name' => 'placeSellOrder',
             'description' => 'Sells a user-defined amount of bitcoin or ethereum. Scopes: wallet:sells:create',
-      
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Ac
