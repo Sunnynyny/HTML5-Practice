@@ -824,4 +824,9 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-                    'info' => 'Ac
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'accountId',
+                    'type' =
