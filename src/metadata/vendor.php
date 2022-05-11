@@ -829,4 +829,9 @@ return array (
                 ),
                 array (
                     'name' => 'accountId',
-                    'type' =
+                    'type' => 'String',
+                    'info' => 'Account identifier.',
+                    'required' => true,
+                ),
+                array (
+              
