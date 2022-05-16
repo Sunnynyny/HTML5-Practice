@@ -834,4 +834,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-              
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'info' => 'Sell amount.',
+                    'required' => true,
+   
