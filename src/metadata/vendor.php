@@ -846,4 +846,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name' => 
+                    'name' => 'total',
+                    'type' => 'String',
+                    'info' => 'Sell amount with fees.',
+                    'required' => false,
+                ),
