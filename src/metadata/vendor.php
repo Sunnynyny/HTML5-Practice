@@ -838,4 +838,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Sell amount.',
                     'required' => true,
-   
+                ),
+                array (
+                    'name' => 'currency',
+                    'type' => 'String',
+                    'info'
