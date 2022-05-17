@@ -851,3 +851,7 @@ return array (
                     'info' => 'Sell amount with fees.',
                     'required' => false,
                 ),
+                array (
+                    'name' => 'paymentMethod',
+                    'type' => 'String',
+                    'info' => 'The ID 
