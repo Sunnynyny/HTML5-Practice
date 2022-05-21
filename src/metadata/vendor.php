@@ -854,4 +854,7 @@ return array (
                 array (
                     'name' => 'paymentMethod',
                     'type' => 'String',
-                    'info' => 'The ID 
+                    'info' => 'The ID of the payment method that should be used for the sell.',
+                    'required' => false,
+                ),
+             
