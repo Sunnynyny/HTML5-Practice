@@ -857,4 +857,7 @@ return array (
                     'info' => 'The ID of the payment method that should be used for the sell.',
                     'required' => false,
                 ),
-             
+                array (
+                    'name' => 'agreeBtcAmountVaries',
+                    'type' => 'Boolean',
+                    'info' => 'Whether or not you w
