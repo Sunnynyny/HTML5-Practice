@@ -866,4 +866,10 @@ return array (
                 array (
                     'name' => 'quote',
                     'type' => 'Boolean',
-                    'info' => 'f set to true, response will return a
+                    'info' => 'f set to true, response will return an unsave sell for detailed price quote.',
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            '
