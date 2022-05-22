@@ -863,4 +863,7 @@ return array (
                     'info' => 'Whether or not you would still like to sell if you have to wait for your money to arrive to lock in a price.',
                     'required' => false,
                 ),
-         
+                array (
+                    'name' => 'quote',
+                    'type' => 'Boolean',
+                    'info' => 'f set to true, response will return a
