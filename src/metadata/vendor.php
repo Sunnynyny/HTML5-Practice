@@ -872,4 +872,6 @@ return array (
             ),
         ),
         array (
-            '
+            'name' => 'commitSell',
+            'description' => 'Completes a sell that is created in commit: false state. Scopes: wallet:sells:create',
+            'args' =>
