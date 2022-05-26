@@ -883,4 +883,10 @@ return array (
                 ),
                 array (
                     'name' => 'accountId',
-                    'type' => 'String
+                    'type' => 'String',
+                    'info' => 'Account identifier.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'sellId',
+        
