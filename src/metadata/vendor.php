@@ -889,4 +889,8 @@ return array (
                 ),
                 array (
                     'name' => 'sellId',
-        
+                    'type' => 'String',
+                    'info' => 'Individual sell identifier.',
+                    'required' => true,
+                ),
+           
