@@ -893,4 +893,9 @@ return array (
                     'info' => 'Individual sell identifier.',
                     'required' => true,
                 ),
-           
+            ),
+        ),
+        array (
+            'name' => 'getDeposits',
+            'description' => 'Lists deposits for an account. Scopes: wallet:deposits:read',
+            'a
