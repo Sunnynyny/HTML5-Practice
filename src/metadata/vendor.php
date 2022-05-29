@@ -913,4 +913,8 @@ return array (
                 ),
             ),
         ),
-        arr
+        array (
+            'name' => 'getSingleDeposit',
+            'description' => 'Show an individual deposit. Scopes: wallet:deposits:read',
+            'args' => array (
+    
