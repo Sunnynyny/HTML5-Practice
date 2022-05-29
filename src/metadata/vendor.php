@@ -898,4 +898,8 @@ return array (
         array (
             'name' => 'getDeposits',
             'description' => 'Lists deposits for an account. Scopes: wallet:deposits:read',
-            'a
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Ac
