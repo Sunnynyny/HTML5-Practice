@@ -917,4 +917,8 @@ return array (
             'name' => 'getSingleDeposit',
             'description' => 'Show an individual deposit. Scopes: wallet:deposits:read',
             'args' => array (
-    
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    
