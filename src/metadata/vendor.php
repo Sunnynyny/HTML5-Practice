@@ -930,4 +930,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'n
+                    'name' => 'depositId',
+                    'type' => 'String',
+                    'info' => 'Deposit identifier.',
+                    'required' => true,
+                )
