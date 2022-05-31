@@ -934,4 +934,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Deposit identifier.',
                     'required' => true,
-                )
+                ),
+            ),
+        ),
+        array (
+            'name' => 'depositFunds',
+            'description' => 'Deposits user-defined amount of funds to a fiat
