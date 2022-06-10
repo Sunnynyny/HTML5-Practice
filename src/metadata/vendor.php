@@ -939,4 +939,8 @@ return array (
         ),
         array (
             'name' => 'depositFunds',
-            'description' => 'Deposits user-defined amount of funds to a fiat
+            'description' => 'Deposits user-defined amount of funds to a fiat account. Scopes: wallet:deposits:create',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                 
