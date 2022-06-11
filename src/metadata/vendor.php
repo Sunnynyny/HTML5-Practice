@@ -951,4 +951,9 @@ return array (
                     'name' => 'accountId',
                     'type' => 'String',
                     'info' => 'Account identifier.',
-                    'required' =>
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'inf
