@@ -956,4 +956,9 @@ return array (
                 array (
                     'name' => 'amount',
                     'type' => 'String',
-                    'inf
+                    'info' => 'Deposit amount.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'currency',
+             
