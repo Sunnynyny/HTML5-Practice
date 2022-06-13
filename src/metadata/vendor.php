@@ -972,4 +972,6 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name'
+                    'name' => 'commit',
+                    'type' => 'Boolean',
+                    'info' => 'If set to false, this deposit will not be immediately completed.'
