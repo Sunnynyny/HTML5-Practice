@@ -968,4 +968,8 @@ return array (
                 array (
                     'name' => 'paymentMethod',
                     'type' => 'String',
-                    'info' => 'The ID of the payment method th
+                    'info' => 'The ID of the payment method that should be used for the deposit.',
+                    'required' => true,
+                ),
+                array (
+                    'name'
