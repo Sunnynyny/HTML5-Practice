@@ -965,4 +965,7 @@ return array (
                     'info' => 'Currency for the amount.',
                     'required' => true,
                 ),
-     
+                array (
+                    'name' => 'paymentMethod',
+                    'type' => 'String',
+                    'info' => 'The ID of the payment method th
