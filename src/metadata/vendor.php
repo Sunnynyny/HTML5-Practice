@@ -974,4 +974,11 @@ return array (
                 array (
                     'name' => 'commit',
                     'type' => 'Boolean',
-                    'info' => 'If set to false, this deposit will not be immediately completed.'
+                    'info' => 'If set to false, this deposit will not be immediately completed.',
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'commitDeposit',
+     
