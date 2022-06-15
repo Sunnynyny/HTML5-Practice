@@ -981,4 +981,6 @@ return array (
         ),
         array (
             'name' => 'commitDeposit',
-     
+            'description' => 'Completes a deposit that is created in commit: false state. Scopes: wallet:deposits:create',
+            'args' => array (
+ 
