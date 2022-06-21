@@ -996,4 +996,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name'
+                    'name' => 'depositId',
+                    'type' => 'String',
+                    'info' => 'Deposit identifier.',
+                    'require
