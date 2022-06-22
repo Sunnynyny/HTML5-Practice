@@ -999,4 +999,10 @@ return array (
                     'name' => 'depositId',
                     'type' => 'String',
                     'info' => 'Deposit identifier.',
-                    'require
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getWithdrawals',
+            'description' => 'Lists withdrawals for an account. Scopes: w
