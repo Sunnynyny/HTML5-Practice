@@ -1005,4 +1005,8 @@ return array (
         ),
         array (
             'name' => 'getWithdrawals',
-            'description' => 'Lists withdrawals for an account. Scopes: w
+            'description' => 'Lists withdrawals for an account. Scopes: wallet:withdrawals:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                
