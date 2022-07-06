@@ -1018,4 +1018,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Account identifier.',
                     'required' => true,
-        
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSingleWithdrawal',
+            'description' => 'Show an individual withdra
