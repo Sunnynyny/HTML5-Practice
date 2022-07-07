@@ -1026,4 +1026,9 @@ return array (
             'description' => 'Show an individual withdrawal. Scopes: wallet:withdrawals:read',
             'args' => array (
                 array (
-                    'name' => 'accessToke
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                ar
