@@ -1023,4 +1023,7 @@ return array (
         ),
         array (
             'name' => 'getSingleWithdrawal',
-            'description' => 'Show an individual withdra
+            'description' => 'Show an individual withdrawal. Scopes: wallet:withdrawals:read',
+            'args' => array (
+                array (
+                    'name' => 'accessToke
