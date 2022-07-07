@@ -1031,4 +1031,8 @@ return array (
                     'info' => 'Access token.',
                     'required' => true,
                 ),
-                ar
+                array (
+                    'name' => 'accountId',
+                    'type' => 'String',
+                    'info' => 'Account identifier.',
+                    '
