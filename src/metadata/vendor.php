@@ -1040,4 +1040,10 @@ return array (
                 array (
                     'name' => 'withdrawalId',
                     'type' => 'String',
-                    'info' =>
+                    'info' => 'Withdrawal identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'withdrawFun
