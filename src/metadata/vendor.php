@@ -1052,4 +1052,9 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-                    'info' => 'Access toke
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'accountId',
+                  
