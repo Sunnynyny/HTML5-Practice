@@ -1048,4 +1048,8 @@ return array (
         array (
             'name' => 'withdrawFunds',
             'description' => 'Withdraws user-defined amount of funds from a fiat account. Scopes: wallet:withdrawals:create',
-            'args
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access toke
