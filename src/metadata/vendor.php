@@ -1062,4 +1062,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-   
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'info' => 'Withdrawal amount.',
+                    'req
