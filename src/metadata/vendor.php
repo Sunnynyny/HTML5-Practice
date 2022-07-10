@@ -1065,4 +1065,9 @@ return array (
                     'name' => 'amount',
                     'type' => 'String',
                     'info' => 'Withdrawal amount.',
-                    'req
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'currency',
+                    'type' => 'String',
+           
