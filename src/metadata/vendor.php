@@ -1076,4 +1076,9 @@ return array (
                 array (
                     'name' => 'paymentMethod',
                     'type' => 'String',
-                    'info' => 'The ID of the payment method that should be used for the withdrawa
+                    'info' => 'The ID of the payment method that should be used for the withdrawal.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'commit',
+                    't
