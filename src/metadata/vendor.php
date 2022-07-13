@@ -1090,4 +1090,8 @@ return array (
         array (
             'name' => 'commitWithdrawal',
             'description' => 'Completes a withdrawal that is created in commit: false state. Scopes: wallet:withdrawals:create',
-            'args' => arra
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token
