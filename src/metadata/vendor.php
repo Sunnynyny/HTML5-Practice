@@ -1081,4 +1081,6 @@ return array (
                 ),
                 array (
                     'name' => 'commit',
-                    't
+                    'type' => 'Boolean',
+                    'info' => 'If set to false, this withdrawal will not be immediately completed.',
+                    'required' => fals
