@@ -1105,4 +1105,11 @@ return array (
                 ),
                 array (
                     'name' => 'withdrawalId',
-      
+                    'type' => 'String',
+                    'info' => 'Withdrawal identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+ 
