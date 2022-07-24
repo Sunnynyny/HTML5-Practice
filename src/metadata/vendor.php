@@ -1112,4 +1112,6 @@ return array (
             ),
         ),
         array (
- 
+            'name' => 'getPaymentMethods',
+            'description' => 'Lists current user’s payment methods. Scopes: wallet:payment-methods:read',
+            'arg
