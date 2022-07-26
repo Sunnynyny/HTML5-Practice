@@ -1124,4 +1124,7 @@ return array (
             ),
         ),
         array (
-            'name' => 'getSingleP
+            'name' => 'getSinglePaymentMethod',
+            'description' => 'Show current user’s payment method. Scopes: wallet:payment-methods:read',
+            'args' => array (
+                arra
