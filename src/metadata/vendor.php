@@ -1136,4 +1136,10 @@ return array (
                 array (
                     'name' => 'paymentMethodId',
                     'type' => 'String',
-               
+                    'info' => 'Payment method identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+        
