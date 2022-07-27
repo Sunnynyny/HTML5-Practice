@@ -1127,4 +1127,8 @@ return array (
             'name' => 'getSinglePaymentMethod',
             'description' => 'Show current user’s payment method. Scopes: wallet:payment-methods:read',
             'args' => array (
-                arra
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    
