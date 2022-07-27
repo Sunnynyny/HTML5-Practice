@@ -1131,4 +1131,9 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-                    
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'paymentMethodId',
+                    'type' => 'String',
+               
