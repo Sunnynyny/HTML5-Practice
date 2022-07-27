@@ -1142,4 +1142,8 @@ return array (
             ),
         ),
         array (
-        
+            'name' => 'getSingleMerchant',
+            'description' => 'Get any merchant’s information with their ID.',
+            'args' => array (
+                array (
+   
