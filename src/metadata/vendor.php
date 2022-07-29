@@ -1146,4 +1146,7 @@ return array (
             'description' => 'Get any merchant’s information with their ID.',
             'args' => array (
                 array (
-   
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+    
