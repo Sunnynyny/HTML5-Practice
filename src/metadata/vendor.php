@@ -1153,4 +1153,9 @@ return array (
                 ),
                 array (
                     'name' => 'merchantId',
-                    '
+                    'type' => 'String',
+                    'info' => 'Merchant identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
