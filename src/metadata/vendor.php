@@ -1159,3 +1159,7 @@ return array (
                 ),
             ),
         ),
+        array (
+            'name' => 'getOrders',
+            'description' => 'Lists the current user’s (merchant) orders. Scopes: wallet:orders:read',
+         
