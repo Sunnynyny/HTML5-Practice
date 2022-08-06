@@ -1176,4 +1176,7 @@ return array (
             'description' => 'Show current merchant order. Scopes: wallet:orders:read',
             'args' => array (
                 array (
-            
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'requir
