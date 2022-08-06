@@ -1172,4 +1172,8 @@ return array (
             ),
         ),
         array (
-            'name' => 'get
+            'name' => 'getSingleOrder',
+            'description' => 'Show current merchant order. Scopes: wallet:orders:read',
+            'args' => array (
+                array (
+            
