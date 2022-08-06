@@ -1179,4 +1179,9 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-                    'requir
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'orderId',
+                    'type' => 'String',
+                  
