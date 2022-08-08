@@ -1184,4 +1184,11 @@ return array (
                 array (
                     'name' => 'orderId',
                     'type' => 'String',
-                  
+                    'info' => 'Order identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'createOrder',
+    
