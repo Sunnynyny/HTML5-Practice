@@ -1194,4 +1194,7 @@ return array (
             'description' => 'Creates a new merchant order. Scopes: wallet:orders:create',
             'args' => array (
                 array (
-    
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => tru
