@@ -1191,4 +1191,7 @@ return array (
         ),
         array (
             'name' => 'createOrder',
+            'description' => 'Creates a new merchant order. Scopes: wallet:orders:create',
+            'args' => array (
+                array (
     
