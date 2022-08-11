@@ -1197,4 +1197,10 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-                    'required' => tru
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'amount',
+                    'type' => 'String',
+                    'info' => 'Order amount (price).',
+          
