@@ -1203,4 +1203,8 @@ return array (
                     'name' => 'amount',
                     'type' => 'String',
                     'info' => 'Order amount (price).',
-          
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'currency',
+                    'type' => 'String
