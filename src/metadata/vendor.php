@@ -1207,4 +1207,9 @@ return array (
                 ),
                 array (
                     'name' => 'currency',
-                    'type' => 'String
+                    'type' => 'String',
+                    'info' => 'Order amount’s currency.',
+                    'required' => true,
+                ),
+                array (
+                    'nam
