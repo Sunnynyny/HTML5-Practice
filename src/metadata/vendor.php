@@ -1216,4 +1216,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Name of the order.',
                     'required' => true,
-                )
+                ),
+                array (
+                    'name' => 'description',
+                    'type' => 'String',
+                    'info' => 'More detailed de
