@@ -1220,4 +1220,9 @@ return array (
                 array (
                     'name' => 'description',
                     'type' => 'String',
-                    'info' => 'More detailed de
+                    'info' => 'More detailed description of the order.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'notificationsUrl',
+   
