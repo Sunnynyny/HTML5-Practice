@@ -1212,4 +1212,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'nam
+                    'name' => 'name',
+                    'type' => 'String',
+                    'info' => 'Name of the order.',
+                    'required' => true,
+                )
