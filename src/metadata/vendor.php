@@ -1225,4 +1225,7 @@ return array (
                 ),
                 array (
                     'name' => 'notificationsUrl',
-   
+                    'type' => 'String',
+                    'info' => 'Order specific notification URL.',
+                    'required' => false,
+            
