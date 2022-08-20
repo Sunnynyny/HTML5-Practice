@@ -1228,4 +1228,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Order specific notification URL.',
                     'required' => false,
-            
+                ),
+                array (
+                    'name' => 'metadata',
+                    'type' => 'JSON',
+                    'info' => 'JSON Object. D
