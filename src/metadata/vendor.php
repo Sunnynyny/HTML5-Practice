@@ -1232,4 +1232,10 @@ return array (
                 array (
                     'name' => 'metadata',
                     'type' => 'JSON',
-                    'info' => 'JSON Object. D
+                    'info' => 'JSON Object. Developer defined key value pairs.',
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            'name' => 
