@@ -1242,3 +1242,7 @@ return array (
             'description' => 'Refunds an order. Scopes: wallet:orders:refund',
             'args' => array (
                 array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' 
