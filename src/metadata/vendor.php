@@ -1238,4 +1238,7 @@ return array (
             ),
         ),
         array (
-            'name' => 
+            'name' => 'refundOrder',
+            'description' => 'Refunds an order. Scopes: wallet:orders:refund',
+            'args' => array (
+                array (
