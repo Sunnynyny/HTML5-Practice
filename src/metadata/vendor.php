@@ -1262,4 +1262,10 @@ return array (
                 array (
                     'name' => 'refundAddress',
                     'type' => 'String',
-             
+                    'info' => 'Must be a valid bitcoin address.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => '
