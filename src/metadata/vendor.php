@@ -1249,4 +1249,9 @@ return array (
                 ),
                 array (
                     'name' => 'orderId',
-                    'type' => 
+                    'type' => 'String',
+                    'info' => 'Order identifier.',
+                    'required' => true,
+                ),
+                array (
+   
