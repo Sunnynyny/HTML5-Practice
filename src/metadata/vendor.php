@@ -1254,4 +1254,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-   
+                    'name' => 'currency',
+                    'type' => 'String',
+                    'info' => 'The currency to issue the refund in.',
+                    'r
