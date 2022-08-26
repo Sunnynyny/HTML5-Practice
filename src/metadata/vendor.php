@@ -1268,4 +1268,7 @@ return array (
             ),
         ),
         array (
-            'name' => '
+            'name' => 'getCheckouts',
+            'description' => 'Lists current user’s checkouts. Scopes: wallet:checkouts:read',
+            'args' => array (
+                ar
