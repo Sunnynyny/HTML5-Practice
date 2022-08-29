@@ -1281,4 +1281,7 @@ return array (
         ),
         array (
             'name' => 'getSingleCheckout',
-            
+            'description' => 'Show current user’s checkout. Scopes: wallet:checkouts:read',
+            'args' => array (
+                array (
+                    'name'
