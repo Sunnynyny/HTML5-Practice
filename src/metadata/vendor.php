@@ -1271,4 +1271,8 @@ return array (
             'name' => 'getCheckouts',
             'description' => 'Lists current user’s checkouts. Scopes: wallet:checkouts:read',
             'args' => array (
-                ar
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+    
