@@ -1284,4 +1284,8 @@ return array (
             'description' => 'Show current user’s checkout. Scopes: wallet:checkouts:read',
             'args' => array (
                 array (
-                    'name'
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => true,
+   
