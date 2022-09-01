@@ -1288,4 +1288,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Access token.',
                     'required' => true,
-   
+                ),
+                array (
+                    'name' => 'checkoutId',
+                    'type' => 'String',
+                    'info' => 
