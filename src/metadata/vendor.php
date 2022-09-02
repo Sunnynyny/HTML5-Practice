@@ -1298,4 +1298,7 @@ return array (
             ),
         ),
         array (
-            'name' => 'createChec
+            'name' => 'createCheckout',
+            'description' => 'Creates a new merchant order checkout product. Scopes: wallet:checkouts:create',
+            'args' => array (
+                array
