@@ -1292,4 +1292,10 @@ return array (
                 array (
                     'name' => 'checkoutId',
                     'type' => 'String',
-                    'info' => 
+                    'info' => 'Checkout identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'createChec
