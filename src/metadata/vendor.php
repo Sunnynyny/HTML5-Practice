@@ -1301,4 +1301,8 @@ return array (
             'name' => 'createCheckout',
             'description' => 'Creates a new merchant order checkout product. Scopes: wallet:checkouts:create',
             'args' => array (
-                array
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+  
