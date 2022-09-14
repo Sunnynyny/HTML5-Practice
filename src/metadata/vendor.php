@@ -1318,4 +1318,8 @@ return array (
                     'type' => 'String',
                     'info' => 'Order amount’s currency.',
                     'required' => true,
-           
+                ),
+                array (
+                    'name' => 'name',
+                    'type' => 'String',
+                    'info' => 'Name 
