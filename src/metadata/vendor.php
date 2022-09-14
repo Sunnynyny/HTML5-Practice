@@ -1314,4 +1314,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name
+                    'name' => 'currency',
+                    'type' => 'String',
+                    'info' => 'Order amount’s currency.',
+                    'required' => true,
+           
