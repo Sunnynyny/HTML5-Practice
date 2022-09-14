@@ -1322,4 +1322,9 @@ return array (
                 array (
                     'name' => 'name',
                     'type' => 'String',
-                    'info' => 'Name 
+                    'info' => 'Name of the order.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'type',
+                    'ty
