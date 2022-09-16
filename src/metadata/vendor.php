@@ -1327,4 +1327,9 @@ return array (
                 ),
                 array (
                     'name' => 'type',
-                    'ty
+                    'type' => 'String',
+                    'info' => 'Checkout’s order type.',
+                    'required' => true,
+                ),
+                array (
+               
