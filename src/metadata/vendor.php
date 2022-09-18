@@ -1332,4 +1332,7 @@ return array (
                     'required' => true,
                 ),
                 array (
-               
+                    'name' => 'description',
+                    'type' => 'String',
+                    'info' => 'More detailed description of the checkout order.',
+            
