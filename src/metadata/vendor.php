@@ -1335,4 +1335,8 @@ return array (
                     'name' => 'description',
                     'type' => 'String',
                     'info' => 'More detailed description of the checkout order.',
-            
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'style',
+                    'type' => 'String
