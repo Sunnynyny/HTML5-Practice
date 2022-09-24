@@ -1339,4 +1339,5 @@ return array (
                 ),
                 array (
                     'name' => 'style',
-                    'type' => 'String
+                    'type' => 'String',
+                    'info' => 'Style of a payment button. One of: buy_now_large, buy_now_small, donation_large, donation_small ,custom_large, custom_small.
