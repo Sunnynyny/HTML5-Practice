@@ -1340,4 +1340,9 @@ return array (
                 array (
                     'name' => 'style',
                     'type' => 'String',
-                    'info' => 'Style of a payment button. One of: buy_now_large, buy_now_small, donation_large, donation_small ,custom_large, custom_small.
+                    'info' => 'Style of a payment button. One of: buy_now_large, buy_now_small, donation_large, donation_small ,custom_large, custom_small.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'customerDefinedAmount',
+                    'type' => 'Bool
