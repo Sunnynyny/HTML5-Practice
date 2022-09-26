@@ -1345,4 +1345,7 @@ return array (
                 ),
                 array (
                     'name' => 'customerDefinedAmount',
-                    'type' => 'Bool
+                    'type' => 'Boolean',
+                    'info' => 'Allow customer to define the amount they are paying.',
+                    'required' => false,
+                
