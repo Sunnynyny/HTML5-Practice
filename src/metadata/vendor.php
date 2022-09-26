@@ -1352,4 +1352,8 @@ return array (
                 array (
                     'name' => 'amountPresets',
                     'type' => 'Array',
-                    'info' => 'Array of Strings
+                    'info' => 'Array of Strings, allow customer to select one of the predefined amount values.',
+                    'required' => false,
+                ),
+                array (
+     
