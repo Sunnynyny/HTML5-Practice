@@ -1348,4 +1348,8 @@ return array (
                     'type' => 'Boolean',
                     'info' => 'Allow customer to define the amount they are paying.',
                     'required' => false,
-                
+                ),
+                array (
+                    'name' => 'amountPresets',
+                    'type' => 'Array',
+                    'info' => 'Array of Strings
