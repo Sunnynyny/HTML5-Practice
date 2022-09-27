@@ -1358,4 +1358,9 @@ return array (
                 array (
                     'name' => 'successUrl',
                     'type' => 'String',
-                    'info' => 'URL to which the customer is redirected after succ
+                    'info' => 'URL to which the customer is redirected after successful payment.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'cancelUrl',
+               
