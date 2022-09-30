@@ -1365,4 +1365,8 @@ return array (
                     'name' => 'cancelUrl',
                     'type' => 'String',
                     'info' => 'URL to which the customer is redirected after they have canceled a payment.',
-                    'required' => f
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'notificationsUrl',
+                    'type' => 'String'
