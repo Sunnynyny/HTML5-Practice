@@ -1374,4 +1374,6 @@ return array (
                     'required' => false,
                 ),
                 array (
-        
+                    'name' => 'autoRedirect',
+                    'type' => 'Boolean',
+                    'info' => 'Auto-redirect users to succ
