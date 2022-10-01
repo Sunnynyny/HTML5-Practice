@@ -1376,4 +1376,8 @@ return array (
                 array (
                     'name' => 'autoRedirect',
                     'type' => 'Boolean',
-                    'info' => 'Auto-redirect users to succ
+                    'info' => 'Auto-redirect users to success or cancel url after payment.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'collectShipp
