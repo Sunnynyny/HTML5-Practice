@@ -1380,4 +1380,7 @@ return array (
                     'required' => false,
                 ),
                 array (
-                    'name' => 'collectShipp
+                    'name' => 'collectShippingAddress',
+                    'type' => 'Boolean',
+                    'info' => 'Collect shipping address from customer.',
+                    'required' => fal
