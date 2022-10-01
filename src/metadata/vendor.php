@@ -1369,4 +1369,9 @@ return array (
                 ),
                 array (
                     'name' => 'notificationsUrl',
-                    'type' => 'String'
+                    'type' => 'String',
+                    'info' => 'Checkout specific notification URL.',
+                    'required' => false,
+                ),
+                array (
+        
