@@ -1383,4 +1383,9 @@ return array (
                     'name' => 'collectShippingAddress',
                     'type' => 'Boolean',
                     'info' => 'Collect shipping address from customer.',
-                    'required' => fal
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'collectEmail',
+                    'type' => 'Boolean',
+                    'info' => 'Co
