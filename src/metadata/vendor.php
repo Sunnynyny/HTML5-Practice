@@ -1392,4 +1392,7 @@ return array (
                     'required' => false,
                 ),
                 array (
-                    'name' => 
+                    'name' => 'collectPhoneNumber',
+                    'type' => 'Boolean',
+                    'info' => 'Collect phone number from customer.',
+                   
