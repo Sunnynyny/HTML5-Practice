@@ -1388,4 +1388,8 @@ return array (
                 array (
                     'name' => 'collectEmail',
                     'type' => 'Boolean',
-                    'info' => 'Co
+                    'info' => 'Collect email address from customer.',
+                    'required' => false,
+                ),
+                array (
+                    'name' => 
