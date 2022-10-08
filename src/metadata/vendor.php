@@ -1395,4 +1395,8 @@ return array (
                     'name' => 'collectPhoneNumber',
                     'type' => 'Boolean',
                     'info' => 'Collect phone number from customer.',
-                   
+                    'required' => false,
+                ),
+                array (
+                    'name' => 'collectCountry',
+                    'type' => 'Boo
