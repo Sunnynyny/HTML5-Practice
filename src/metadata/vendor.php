@@ -1407,4 +1407,10 @@ return array (
                     'name' => 'metadata',
                     'type' => 'JSON',
                     'info' => 'JSON Object. Developer defined key value pairs.',
-          
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getCheckoutOrders',
+            'description' => 'L
