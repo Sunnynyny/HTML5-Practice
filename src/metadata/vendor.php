@@ -1399,4 +1399,8 @@ return array (
                 ),
                 array (
                     'name' => 'collectCountry',
-                    'type' => 'Boo
+                    'type' => 'Boolean',
+                    'info' => 'Collect country from customer.',
+                    'required' => false,
+                ),
+                array (
