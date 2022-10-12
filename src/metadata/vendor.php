@@ -1413,4 +1413,7 @@ return array (
         ),
         array (
             'name' => 'getCheckoutOrders',
-            'description' => 'L
+            'description' => 'Lists checkout product’s orders. Scopes: wallet:checkouts:read',
+            'args' => array (
+                array (
+                    'na
