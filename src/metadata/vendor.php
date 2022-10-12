@@ -1404,3 +1404,7 @@ return array (
                     'required' => false,
                 ),
                 array (
+                    'name' => 'metadata',
+                    'type' => 'JSON',
+                    'info' => 'JSON Object. Developer defined key value pairs.',
+          
