@@ -1416,4 +1416,7 @@ return array (
             'description' => 'Lists checkout product’s orders. Scopes: wallet:checkouts:read',
             'args' => array (
                 array (
-                    'na
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => tru
