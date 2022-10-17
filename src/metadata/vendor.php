@@ -1430,4 +1430,6 @@ return array (
             ),
         ),
         array (
-   
+            'name' => 'createCheckoutOrder',
+            'description' => 'Creates a new order for a checkout. Scopes: wallet:checkouts:create',
+           
