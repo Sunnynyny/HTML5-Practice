@@ -1424,4 +1424,10 @@ return array (
                 array (
                     'name' => 'checkoutId',
                     'type' => 'String',
-                    
+                    'info' => 'Checkout identifier.',
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+   
