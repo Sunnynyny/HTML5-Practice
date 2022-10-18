@@ -1448,4 +1448,8 @@ return array (
             ),
         ),
         array (
-            'name' 
+            'name' => 'getCurrencies',
+            'description' => 'List known currencies.',
+            'args' => array (
+                array (
+                  
