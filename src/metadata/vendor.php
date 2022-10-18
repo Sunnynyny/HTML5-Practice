@@ -1436,4 +1436,9 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-                    'info' => 'Access token.'
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'checkoutId',
+                    'type' => 'String',
