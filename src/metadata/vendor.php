@@ -1452,4 +1452,7 @@ return array (
             'description' => 'List known currencies.',
             'args' => array (
                 array (
-                  
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => tru
