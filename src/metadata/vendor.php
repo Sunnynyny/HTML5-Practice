@@ -1466,4 +1466,8 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-                    'in
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'na
