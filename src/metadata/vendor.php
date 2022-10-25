@@ -1462,3 +1462,8 @@ return array (
         array (
             'name' => 'getExchangeRates',
             'description' => 'Get current exchange rates.',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'in
