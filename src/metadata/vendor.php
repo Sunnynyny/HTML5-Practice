@@ -1455,4 +1455,10 @@ return array (
                     'name' => 'accessToken',
                     'type' => 'String',
                     'info' => 'Access token.',
-                    'required' => tru
+                    'required' => true,
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getExchangeRates',
+            'description' => 'Get current exchange rates.',
