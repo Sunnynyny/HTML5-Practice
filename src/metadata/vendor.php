@@ -1474,4 +1474,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Base currency (default: USD).',
                     'required' => false,
-         
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getBuyPrice',
+            'description' => 'Get the total price to buy one bitcoin
