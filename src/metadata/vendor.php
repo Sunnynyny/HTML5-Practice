@@ -1470,4 +1470,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'na
+                    'name' => 'currency',
+                    'type' => 'String',
+                    'info' => 'Base currency (default: USD).',
+                    'required' => false,
+         
