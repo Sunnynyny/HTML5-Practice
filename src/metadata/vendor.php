@@ -1479,4 +1479,9 @@ return array (
         ),
         array (
             'name' => 'getBuyPrice',
-            'description' => 'Get the total price to buy one bitcoin
+            'description' => 'Get the total price to buy one bitcoin or ether.',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info
