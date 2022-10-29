@@ -1489,4 +1489,7 @@ return array (
                 ),
                 array (
                     'name' => 'currencyPair',
-   
+                    'type' => 'String',
+                    'info' => 'Currency pair. Example BTC-USD.',
+                    'required' => true,
+            
