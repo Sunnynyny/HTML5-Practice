@@ -1497,4 +1497,9 @@ return array (
         ),
         array (
             'name' => 'getSellPrice',
-            'description' => 'Get the total price to sell one bit
+            'description' => 'Get the total price to sell one bitcoin or ether.',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+       
