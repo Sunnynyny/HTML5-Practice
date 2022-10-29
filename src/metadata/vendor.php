@@ -1492,4 +1492,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Currency pair. Example BTC-USD.',
                     'required' => true,
-            
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSellPrice',
+            'description' => 'Get the total price to sell one bit
