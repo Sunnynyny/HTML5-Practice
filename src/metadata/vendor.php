@@ -1502,4 +1502,8 @@ return array (
                 array (
                     'name' => 'accessToken',
                     'type' => 'String',
-       
+                    'info' => 'Access token.',
+                    'required' => true,
+                ),
+                array (
+                    'name' => 'currencyPair'
