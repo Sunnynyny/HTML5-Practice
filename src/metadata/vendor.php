@@ -1506,4 +1506,8 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name' => 'currencyPair'
+                    'name' => 'currencyPair',
+                    'type' => 'String',
+                    'info' => 'Currency pair. Example BTC-USD.',
+                    'required' => true,
+             
