@@ -1510,4 +1510,9 @@ return array (
                     'type' => 'String',
                     'info' => 'Currency pair. Example BTC-USD.',
                     'required' => true,
-             
+                ),
+            ),
+        ),
+        array (
+            'name' => 'getSpotPrice',
+            'description' => 'Get the current market price for bitcoin.'
