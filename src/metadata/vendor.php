@@ -1515,4 +1515,9 @@ return array (
         ),
         array (
             'name' => 'getSpotPrice',
-            'description' => 'Get the current market price for bitcoin.'
+            'description' => 'Get the current market price for bitcoin.',
+            'args' => array (
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                 
