@@ -1532,4 +1532,10 @@ return array (
                 array (
                     'name' => 'date',
                     'type' => 'String',
-                    'info' => 'Specify date for hi
+                    'info' => 'Specify date for historic spot price in format YYYY-MM-DD (UTC).',
+                    'required' => false,
+                ),
+            ),
+        ),
+        array (
+            
