@@ -1529,4 +1529,7 @@ return array (
                     'info' => 'Currency pair. Example BTC-USD.',
                     'required' => true,
                 ),
-    
+                array (
+                    'name' => 'date',
+                    'type' => 'String',
+                    'info' => 'Specify date for hi
