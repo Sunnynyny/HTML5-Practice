@@ -1538,4 +1538,8 @@ return array (
             ),
         ),
         array (
-            
+            'name' => 'getCurrentTime',
+            'description' => 'Get the API server time.',
+            'args' => array (
+            ),
+        
