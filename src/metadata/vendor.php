@@ -1542,4 +1542,9 @@ return array (
             'description' => 'Get the API server time.',
             'args' => array (
             ),
-        
+        ),
+        array (
+            'name' => 'nextPage',
+            'description' => 'Retrieve next page for paginated blocks.',
+            'args' => array (
+            
