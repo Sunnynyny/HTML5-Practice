@@ -1547,4 +1547,8 @@ return array (
             'name' => 'nextPage',
             'description' => 'Retrieve next page for paginated blocks.',
             'args' => array (
-            
+                array (
+                    'name' => 'accessToken',
+                    'type' => 'String',
+                    'info' => 'Access token.',
+                    'required' => 
