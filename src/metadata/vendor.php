@@ -1556,4 +1556,6 @@ return array (
                 array (
                     'name' => 'nextUri',
                     'type' => 'String',
-            
+                    'info' => 'Next page Uri, from pagination object in response.',
+                    'required' => true,
+                )
