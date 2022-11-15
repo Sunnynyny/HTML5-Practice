@@ -1558,4 +1558,11 @@ return array (
                     'type' => 'String',
                     'info' => 'Next page Uri, from pagination object in response.',
                     'required' => true,
-                )
+                ),
+            ),
+        ),
+    ),
+    'custom' => array (
+        'getAccessToken' => array (
+            'dictionary' => array (
+                'clientId' => 'c
