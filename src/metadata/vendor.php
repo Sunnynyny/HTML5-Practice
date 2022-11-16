@@ -1565,4 +1565,9 @@ return array (
     'custom' => array (
         'getAccessToken' => array (
             'dictionary' => array (
-                'clientId' => 'c
+                'clientId' => 'client_id',
+                'clientSecret' => 'client_secret',
+                'redirectUri' => 'redirect_uri',
+                'code' => 'code',
+            ),
+            
