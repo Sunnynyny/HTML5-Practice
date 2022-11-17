@@ -1570,4 +1570,6 @@ return array (
                 'redirectUri' => 'redirect_uri',
                 'code' => 'code',
             ),
-            
+            'vendorUrl' => 'https://api.coinbase.com/oauth/token',
+            'method' => 'POST',
+            'default' => ['grant_type' => 'aut
