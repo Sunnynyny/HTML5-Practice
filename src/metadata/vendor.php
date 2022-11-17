@@ -1572,4 +1572,9 @@ return array (
             ),
             'vendorUrl' => 'https://api.coinbase.com/oauth/token',
             'method' => 'POST',
-            'default' => ['grant_type' => 'aut
+            'default' => ['grant_type' => 'authorization_code'],
+        ),
+        'refreshAccessToken' => array (
+            'dictionary' => array (
+                'clientId' => 'client_id',
+                'clientSe
