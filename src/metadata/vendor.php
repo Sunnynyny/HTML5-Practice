@@ -1577,4 +1577,7 @@ return array (
         'refreshAccessToken' => array (
             'dictionary' => array (
                 'clientId' => 'client_id',
-                'clientSe
+                'clientSecret' => 'client_secret',
+                'refreshToken' => 'refresh_token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/oauth
