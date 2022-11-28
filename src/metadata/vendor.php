@@ -1580,4 +1580,8 @@ return array (
                 'clientSecret' => 'client_secret',
                 'refreshToken' => 'refresh_token',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/oauth
+            'vendorUrl' => 'https://api.coinbase.com/oauth/token',
+            'method' => 'POST',
+            'default' => ['grant_type' => 'refresh_token'],
+        ),
+        'revokeAccessToken' => array 
