@@ -1584,4 +1584,9 @@ return array (
             'method' => 'POST',
             'default' => ['grant_type' => 'refresh_token'],
         ),
-        'revokeAccessToken' => array 
+        'revokeAccessToken' => array (
+            'dictionary' => array (
+                'token' => 'token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/oauth/revoke',
+     
