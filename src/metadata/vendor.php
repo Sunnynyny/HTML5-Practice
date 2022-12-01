@@ -1589,4 +1589,9 @@ return array (
                 'token' => 'token',
             ),
             'vendorUrl' => 'https://api.coinbase.com/oauth/revoke',
-     
+            'method' => 'POST',
+        ),
+        'getNotifications' => array (
+            'dictionary' => array (
+                'apiKey' => 'apiKey',
+    
