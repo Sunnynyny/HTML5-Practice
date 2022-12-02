@@ -1597,4 +1597,10 @@ return array (
                 'secretKey' => 'secretKey',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/notifications',
-            'method' => 'API-KEY-GET'
+            'method' => 'API-KEY-GET',
+            'custom' => true,
+        ),
+        'getSingleNotification' => array (
+            'dictionary' => array (
+                'apiKey' => 'apiKey',
+  
