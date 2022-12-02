@@ -1603,4 +1603,7 @@ return array (
         'getSingleNotification' => array (
             'dictionary' => array (
                 'apiKey' => 'apiKey',
-  
+                'secretKey' => 'secretKey',
+                'notificationsId' => 'notificationsId',
+            ),
+            'vendorUrl' => 'https://api.coinb
