@@ -1606,4 +1606,9 @@ return array (
                 'secretKey' => 'secretKey',
                 'notificationsId' => 'notificationsId',
             ),
-            'vendorUrl' => 'https://api.coinb
+            'vendorUrl' => 'https://api.coinbase.com/v2/notifications/{{notificationsId}}',
+            'method' => 'API-KEY-GET',
+            'custom' => true,
+        ),
+        'getUser' => array (
+            'dict
