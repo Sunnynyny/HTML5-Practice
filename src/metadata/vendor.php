@@ -1611,4 +1611,8 @@ return array (
             'custom' => true,
         ),
         'getUser' => array (
-            'dict
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'userId' => 'userId',
+            ),
+            'vendorUrl' => 'https://ap
