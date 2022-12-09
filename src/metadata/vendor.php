@@ -1623,4 +1623,8 @@ return array (
                 'accessToken' => 'access_token',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/user',
-            'method' =>
+            'method' => 'GET',
+        ),
+        'getMyAuthInfo' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
