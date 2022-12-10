@@ -1632,4 +1632,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/user/auth',
             'method' => 'GET',
         ),
-        'updateMe' => arr
+        'updateMe' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'name' => 'name',
+                'timeZone'
