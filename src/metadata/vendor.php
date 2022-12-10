@@ -1628,3 +1628,8 @@ return array (
         'getMyAuthInfo' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/user/auth',
+            'method' => 'GET',
+        ),
+        'updateMe' => arr
