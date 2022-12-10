@@ -1640,4 +1640,8 @@ return array (
                 'nativeCurrency' => 'native_currency',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/user',
-   
+            'method' => 'PUT',
+        ),
+        'getAccounts' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_
