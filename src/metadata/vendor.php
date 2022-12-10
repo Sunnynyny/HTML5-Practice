@@ -1636,4 +1636,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'name' => 'name',
-                'timeZone'
+                'timeZone' => 'time_zone',
+                'nativeCurrency' => 'native_currency',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/user',
+   
