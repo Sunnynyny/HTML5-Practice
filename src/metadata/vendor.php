@@ -1652,4 +1652,9 @@ return array (
         'getSingleAccount' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-                'accountId' => 'account
+                'accountId' => 'accountId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}',
+            'method' => 'GET',
+        ),
+     
