@@ -1644,4 +1644,9 @@ return array (
         ),
         'getAccounts' => array (
             'dictionary' => array (
-                'accessToken' => 'access_
+                'accessToken' => 'access_token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts',
+            'method' => 'GET',
+        ),
+        'getSingleAccoun
