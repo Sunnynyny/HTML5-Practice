@@ -1661,4 +1661,9 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'name' => 'name',
-    
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts',
+            'method' => 'POST',
+        ),
+        'setAccountAsPrimary' => array (
+            'd
