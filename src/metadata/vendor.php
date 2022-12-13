@@ -1657,4 +1657,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}',
             'method' => 'GET',
         ),
-     
+        'createAccount' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'name' => 'name',
+    
