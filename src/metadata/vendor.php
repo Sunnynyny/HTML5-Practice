@@ -1666,4 +1666,8 @@ return array (
             'method' => 'POST',
         ),
         'setAccountAsPrimary' => array (
-            'd
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+            ),
+            
