@@ -1674,3 +1674,7 @@ return array (
             'method' => 'POST',
         ),
         'updateAccount' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'name
