@@ -1677,4 +1677,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
-                'name
+                'name' => 'name',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}',
+            'method' => 'PUT',
+        ),
