@@ -1698,4 +1698,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses',
             'method' => 'GET',
         ),
-        'getS
+        'getSingleAddress' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+  
