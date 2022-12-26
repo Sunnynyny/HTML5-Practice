@@ -1691,3 +1691,8 @@ return array (
             'method' => 'DELETE',
         ),
         'getAddresses' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+            ),
+    
