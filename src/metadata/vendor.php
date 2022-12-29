@@ -1702,4 +1702,6 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
-  
+                'addressId' => 'addressId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses/{{addressId}}'
