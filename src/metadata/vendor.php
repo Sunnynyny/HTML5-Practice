@@ -1704,4 +1704,9 @@ return array (
                 'accountId' => 'accountId',
                 'addressId' => 'addressId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses/{{addressId}}'
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses/{{addressId}}',
+            'method' => 'GET',
+        ),
+        'getAddressTransactions' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_
