@@ -1713,4 +1713,7 @@ return array (
                 'accountId' => 'accountId',
                 'addressId' => 'addressId',
             ),
-            'vendorUrl' => 'https://
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses/{{addressId}}/transactions',
+            'method' => 'GET',
+        ),
+        'createAddress' =>
