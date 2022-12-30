@@ -1716,4 +1716,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/addresses/{{addressId}}/transactions',
             'method' => 'GET',
         ),
-        'createAddress' =>
+        'createAddress' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'name' => 'n
