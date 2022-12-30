@@ -1709,4 +1709,8 @@ return array (
         ),
         'getAddressTransactions' => array (
             'dictionary' => array (
-                'accessToken' => 'access_
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'addressId' => 'addressId',
+            ),
+            'vendorUrl' => 'https://
