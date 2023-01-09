@@ -1731,4 +1731,9 @@ return array (
                 'accountId' => 'accountId',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
-            'method'
+            'method' => 'GET',
+        ),
+        'getSingleTransaction' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'ac
