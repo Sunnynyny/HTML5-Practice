@@ -1736,4 +1736,7 @@ return array (
         'getSingleTransaction' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-                'ac
+                'accountId' => 'accountId',
+                'transactionId' => 'transactionId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accoun
