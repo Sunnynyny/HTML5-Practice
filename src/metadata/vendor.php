@@ -1739,4 +1739,9 @@ return array (
                 'accountId' => 'accountId',
                 'transactionId' => 'transactionId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accoun
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions/{{transactionId}}',
+            'method' => 'GET',
+        ),
+        'sendMoney' => array (
+            'dictionary' => array (
+              
