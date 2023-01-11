@@ -1748,4 +1748,8 @@ return array (
                 'to' => 'to',
                 'amount' => 'amount',
                 'currency' => 'currency',
-                'description'
+                'description' => 'description',
+                'skipNotifications' => 'skip_notifications',
+                'fee' => 'fee',
+                'idem' => 'idem',
+          
