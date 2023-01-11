@@ -1744,4 +1744,8 @@ return array (
         ),
         'sendMoney' => array (
             'dictionary' => array (
-              
+                'accessToken' => 'access_token',
+                'to' => 'to',
+                'amount' => 'amount',
+                'currency' => 'currency',
+                'description'
