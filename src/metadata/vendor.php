@@ -1752,4 +1752,7 @@ return array (
                 'skipNotifications' => 'skip_notifications',
                 'fee' => 'fee',
                 'idem' => 'idem',
-          
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
+            'method' => 'POST',
+            'default'
