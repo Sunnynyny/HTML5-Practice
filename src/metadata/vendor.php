@@ -1755,4 +1755,8 @@ return array (
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
             'method' => 'POST',
-            'default'
+            'default' => ['type' => 'send'],
+        ),
+        'transferAccountsMoney' => array (
+            'dictionary' => array (
+                'accessToken' =
