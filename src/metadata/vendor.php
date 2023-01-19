@@ -1759,4 +1759,8 @@ return array (
         ),
         'transferAccountsMoney' => array (
             'dictionary' => array (
-                'accessToken' =
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'to' => 'to',
+                'amount' => 'amount',
+                'currency' => 'curr
