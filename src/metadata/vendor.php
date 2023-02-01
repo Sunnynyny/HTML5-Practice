@@ -1763,4 +1763,8 @@ return array (
                 'accountId' => 'accountId',
                 'to' => 'to',
                 'amount' => 'amount',
-                'currency' => 'curr
+                'currency' => 'currency',
+                'description' => 'description',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
+        
