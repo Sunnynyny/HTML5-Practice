@@ -1767,4 +1767,8 @@ return array (
                 'description' => 'description',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
-        
+            'method' => 'POST',
+            'default' => ['type' => 'transfer'],
+        ),
+        'requestMoney' => array (
+            'dicti
