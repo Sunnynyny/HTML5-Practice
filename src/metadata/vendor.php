@@ -1775,4 +1775,8 @@ return array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
                 'to' => 'to',
-             
+                'amount' => 'amount',
+                'currency' => 'currency',
+                'description' => 'description',
+            ),
+            'vendorUrl' => 'ht
