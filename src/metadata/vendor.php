@@ -1771,4 +1771,8 @@ return array (
             'default' => ['type' => 'transfer'],
         ),
         'requestMoney' => array (
-            'dicti
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'to' => 'to',
+             
