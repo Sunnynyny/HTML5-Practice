@@ -1779,4 +1779,8 @@ return array (
                 'currency' => 'currency',
                 'description' => 'description',
             ),
-            'vendorUrl' => 'ht
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions',
+            'method' => 'POST',
+            'default' => ['type' => 'request'],
+        ),
+        'comp
