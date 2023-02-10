@@ -1783,4 +1783,7 @@ return array (
             'method' => 'POST',
             'default' => ['type' => 'request'],
         ),
-        'comp
+        'completeRequestMoney' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'acc
