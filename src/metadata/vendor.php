@@ -1786,4 +1786,7 @@ return array (
         'completeRequestMoney' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-                'accountId' => 'acc
+                'accountId' => 'accountId',
+                'transactionId' => 'transactionId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/tran
