@@ -1794,4 +1794,8 @@ return array (
         ),
         'resendMoneyRequest' => array (
             'dictionary' => array (
-        
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'transactionId' => 'transactionId',
+            ),
+           
