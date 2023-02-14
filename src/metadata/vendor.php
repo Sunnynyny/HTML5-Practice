@@ -1798,4 +1798,7 @@ return array (
                 'accountId' => 'accountId',
                 'transactionId' => 'transactionId',
             ),
-           
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions/{{transactionId}}/resend',
+            'method' => 'POST',
+        ),
+        '
