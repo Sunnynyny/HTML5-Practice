@@ -1805,4 +1805,6 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
-    
+                'transactionId' => 'transactionId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions/{{transactionId}}'
