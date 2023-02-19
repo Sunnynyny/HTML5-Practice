@@ -1807,4 +1807,10 @@ return array (
                 'accountId' => 'accountId',
                 'transactionId' => 'transactionId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions/{{transactionId}}'
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/transactions/{{transactionId}}',
+            'method' => 'DELETE',
+        ),
+        'getBuys' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+ 
