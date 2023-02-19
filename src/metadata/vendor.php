@@ -1816,4 +1816,9 @@ return array (
                 'accountId' => 'accountId',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys',
-            'method' => 'GET'
+            'method' => 'GET',
+        ),
+        'getSingleBuy' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accou
