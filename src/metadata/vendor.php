@@ -1824,4 +1824,9 @@ return array (
                 'accountId' => 'accountId',
                 'buyId' => 'buyId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys/{{buyId}}
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys/{{buyId}}',
+            'method' => 'GET',
+        ),
+        'placeBuyOrder' => array (
+            'dictionary' => array (
+                'acce
