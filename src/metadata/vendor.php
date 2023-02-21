@@ -1821,4 +1821,7 @@ return array (
         'getSingleBuy' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-                'accountId' => 'accou
+                'accountId' => 'accountId',
+                'buyId' => 'buyId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys/{{buyId}}
