@@ -1839,4 +1839,9 @@ return array (
                 'commit' => 'commit',
                 'quote' => 'quote',
             ),
-            'vendorUrl' => 'https://api.
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys',
+            'method' => 'POST',
+        ),
+        'commitBuy' => array (
+            'dictionary' => array (
+            
