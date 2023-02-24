@@ -1833,4 +1833,6 @@ return array (
                 'accountId' => 'accountId',
                 'amount' => 'amount',
                 'total' => 'total',
-    
+                'currency' => 'currency',
+                'paymentMethod' => 'payment_method',
+                'agreeBtcAmountVaries' => 'agree_btc_amoun
