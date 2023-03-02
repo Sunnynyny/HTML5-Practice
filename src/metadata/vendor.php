@@ -1848,4 +1848,8 @@ return array (
                 'accountId' => 'accountId',
                 'buyId' => 'buyId',
             ),
-        
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/buys/{{buyId}}/commit',
+            'method' => 'POST',
+        ),
+        'getSells' => array (
+  
