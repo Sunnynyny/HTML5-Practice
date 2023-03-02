@@ -1844,4 +1844,8 @@ return array (
         ),
         'commitBuy' => array (
             'dictionary' => array (
-            
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'buyId' => 'buyId',
+            ),
+        
