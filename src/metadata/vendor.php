@@ -1852,4 +1852,8 @@ return array (
             'method' => 'POST',
         ),
         'getSells' => array (
-  
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+            ),
+            'vendorUrl
