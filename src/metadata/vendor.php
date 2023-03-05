@@ -1856,4 +1856,8 @@ return array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
             ),
-            'vendorUrl
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/sells',
+            'method' => 'GET',
+        ),
+        'getSingleSell' => array (
+            'dictionar
