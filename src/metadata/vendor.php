@@ -1865,4 +1865,8 @@ return array (
                 'accountId' => 'accountId',
                 'sellId' => 'sellId',
             ),
-        
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/sells/{{sellId}}',
+            'method' => 'GET',
+        ),
+        'placeSellOrder' => array (
+   
