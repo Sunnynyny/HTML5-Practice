@@ -1860,4 +1860,9 @@ return array (
             'method' => 'GET',
         ),
         'getSingleSell' => array (
-            'dictionar
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'sellId' => 'sellId',
+            ),
+        
