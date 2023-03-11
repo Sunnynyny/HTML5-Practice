@@ -1869,4 +1869,7 @@ return array (
             'method' => 'GET',
         ),
         'placeSellOrder' => array (
-   
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'amount' => 
