@@ -1872,4 +1872,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
-                'amount' => 
+                'amount' => 'amount',
+                'total' => 'total',
+                'currency' => 'currency',
+                'paymentMethod' => 'payment_method',
+                'agre
