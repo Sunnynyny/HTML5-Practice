@@ -1876,4 +1876,7 @@ return array (
                 'total' => 'total',
                 'currency' => 'currency',
                 'paymentMethod' => 'payment_method',
-                'agre
+                'agreeBtcAmountVaries' => 'agree_btc_amount_varies',
+                'quote' => 'quote',
+            ),
+            'vendorUrl' => 'https://api.
