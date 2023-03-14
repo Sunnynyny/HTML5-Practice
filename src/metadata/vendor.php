@@ -1879,4 +1879,9 @@ return array (
                 'agreeBtcAmountVaries' => 'agree_btc_amount_varies',
                 'quote' => 'quote',
             ),
-            'vendorUrl' => 'https://api.
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/sells',
+            'method' => 'POST',
+        ),
+        'commitSell' => array (
+            'dictionary' => array (
+     
