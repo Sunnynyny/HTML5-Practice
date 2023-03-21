@@ -1891,4 +1891,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/sells/{{sellId}}/commit',
             'method' => 'POST',
         ),
-        'getDeposits' =
+        'getDeposits' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+         
