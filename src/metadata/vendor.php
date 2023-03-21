@@ -1899,4 +1899,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/deposits',
             'method' => 'GET',
         ),
-        'getSingleDeposit' => 
+        'getSingleDeposit' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+             
