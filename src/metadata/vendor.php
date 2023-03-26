@@ -1910,4 +1910,8 @@ return array (
         ),
         'depositFunds' => array (
             'dictionary' => array (
-                'accessToken' =>
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'amount' => 'amount',
+                'currency' => 'currency',
+              
