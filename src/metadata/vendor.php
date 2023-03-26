@@ -1905,4 +1905,9 @@ return array (
                 'accountId' => 'accountId',
                 'depositId' => 'depositId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/deposits/{{deposit
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/deposits/{{depositId}}',
+            'method' => 'GET',
+        ),
+        'depositFunds' => array (
+            'dictionary' => array (
+                'accessToken' =>
