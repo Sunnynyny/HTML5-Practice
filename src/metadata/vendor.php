@@ -1914,4 +1914,7 @@ return array (
                 'accountId' => 'accountId',
                 'amount' => 'amount',
                 'currency' => 'currency',
-              
+                'paymentMethod' => 'payment_method',
+                'commit' => 'commit',
+            ),
+            'vendorUrl' => 'https://api.
