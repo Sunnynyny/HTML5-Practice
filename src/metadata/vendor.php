@@ -1921,4 +1921,7 @@ return array (
             'method' => 'POST',
         ),
         'commitDeposit' => array (
-            'd
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'depositId' => 'deposi
