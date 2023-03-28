@@ -1917,4 +1917,8 @@ return array (
                 'paymentMethod' => 'payment_method',
                 'commit' => 'commit',
             ),
-            'vendorUrl' => 'https://api.
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/deposits',
+            'method' => 'POST',
+        ),
+        'commitDeposit' => array (
+            'd
