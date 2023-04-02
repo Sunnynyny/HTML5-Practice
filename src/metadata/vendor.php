@@ -1927,4 +1927,8 @@ return array (
                 'depositId' => 'depositId',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/deposits/{{depositId}}/commit',
-            'method
+            'method' => 'POST',
+        ),
+        'getWithdrawals' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_tok
