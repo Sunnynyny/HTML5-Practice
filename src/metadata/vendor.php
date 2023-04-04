@@ -1935,4 +1935,9 @@ return array (
                 'accountId' => 'accountId',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/withdrawals',
-            '
+            'method' => 'GET',
+        ),
+        'getSingleWithdrawal' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+       
