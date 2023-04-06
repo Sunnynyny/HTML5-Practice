@@ -1943,4 +1943,8 @@ return array (
                 'accountId' => 'accountId',
                 'withdrawalId' => 'withdrawalId',
             ),
-            'vendorUrl' => 'https://api.coinbase.com/v2/acco
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/withdrawals/{{withdrawalId}}',
+            'method' => 'GET',
+        ),
+        'withdrawFunds' => array (
+            'dictiona
