@@ -1940,4 +1940,7 @@ return array (
         'getSingleWithdrawal' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-       
+                'accountId' => 'accountId',
+                'withdrawalId' => 'withdrawalId',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/acco
