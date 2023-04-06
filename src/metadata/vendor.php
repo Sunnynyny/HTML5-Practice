@@ -1947,4 +1947,8 @@ return array (
             'method' => 'GET',
         ),
         'withdrawFunds' => array (
-            'dictiona
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'amount' => 'amount',
+           
