@@ -1951,4 +1951,8 @@ return array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
                 'amount' => 'amount',
-           
+                'currency' => 'currency',
+                'paymentMethod' => 'payment_method',
+                'commit' => 'commit',
+            ),
+            'vendorUrl' => 'https:
