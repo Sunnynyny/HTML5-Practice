@@ -1963,4 +1963,8 @@ return array (
                 'accessToken' => 'access_token',
                 'accountId' => 'accountId',
                 'withdrawalId' => 'withdrawalId',
-          
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/withdrawals/{{withdrawalId}}/commit',
+            'method' => 'POST',
+        ),
+        
