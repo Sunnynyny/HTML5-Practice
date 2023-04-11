@@ -1959,4 +1959,8 @@ return array (
             'method' => 'POST',
         ),
         'commitWithdrawal' => array (
-            'dictionary' => 
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'accountId' => 'accountId',
+                'withdrawalId' => 'withdrawalId',
+          
