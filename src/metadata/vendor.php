@@ -1955,4 +1955,8 @@ return array (
                 'paymentMethod' => 'payment_method',
                 'commit' => 'commit',
             ),
-            'vendorUrl' => 'https:
+            'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/withdrawals',
+            'method' => 'POST',
+        ),
+        'commitWithdrawal' => array (
+            'dictionary' => 
