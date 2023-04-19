@@ -1979,4 +1979,8 @@ return array (
                 'accessToken' => 'access_token',
                 'paymentMethodId' => 'paymentMethodId',
             ),
-            'vendorUrl' => 'http
+            'vendorUrl' => 'https://api.coinbase.com/v2/payment-methods/{{paymentMethodId}}',
+            'method' => 'GET',
+        ),
+        'getSingleMerchant' => array (
+            '
