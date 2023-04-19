@@ -1975,4 +1975,8 @@ return array (
             'method' => 'GET',
         ),
         'getSinglePaymentMethod' => array (
-            'dict
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'paymentMethodId' => 'paymentMethodId',
+            ),
+            'vendorUrl' => 'http
