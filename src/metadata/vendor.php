@@ -1967,4 +1967,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/accounts/{{accountId}}/withdrawals/{{withdrawalId}}/commit',
             'method' => 'POST',
         ),
-        
+        'getPaymentMethods' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+            ),
+            'vendorUrl' => 'http
