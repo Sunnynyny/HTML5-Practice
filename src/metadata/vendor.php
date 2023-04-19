@@ -1971,4 +1971,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
             ),
-            'vendorUrl' => 'http
+            'vendorUrl' => 'https://api.coinbase.com/v2/payment-methods',
+            'method' => 'GET',
+        ),
+        'getSinglePaymentMethod' => array (
+            'dict
