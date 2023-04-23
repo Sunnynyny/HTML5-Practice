@@ -1983,4 +1983,8 @@ return array (
             'method' => 'GET',
         ),
         'getSingleMerchant' => array (
-            '
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'merchantId' => 'merchantId',
+            ),
+            'vendorUrl' => 'https://api
