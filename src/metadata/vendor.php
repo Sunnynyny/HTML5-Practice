@@ -1992,4 +1992,9 @@ return array (
         ),
         'getOrders' => array (
             'dictionary' => array (
-                'accessToken' 
+                'accessToken' => 'access_token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/orders',
+            'method' => 'GET',
+        ),
+     
