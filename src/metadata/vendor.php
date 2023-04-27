@@ -1987,4 +1987,9 @@ return array (
                 'accessToken' => 'access_token',
                 'merchantId' => 'merchantId',
             ),
-            'vendorUrl' => 'https://api
+            'vendorUrl' => 'https://api.coinbase.com/v2/merchants/{{merchantId}}',
+            'method' => 'GET',
+        ),
+        'getOrders' => array (
+            'dictionary' => array (
+                'accessToken' 
