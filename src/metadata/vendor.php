@@ -2006,4 +2006,8 @@ return array (
             'method' => 'GET',
         ),
         'createOrder' => array (
-            'dic
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'amount' => 'amount',
+                'currency' => 'currency',
+                'name' =
