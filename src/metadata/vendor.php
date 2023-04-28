@@ -1997,4 +1997,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/orders',
             'method' => 'GET',
         ),
-     
+        'getSingleOrder' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'orderId' => 'orderId',
+         
