@@ -2010,4 +2010,8 @@ return array (
                 'accessToken' => 'access_token',
                 'amount' => 'amount',
                 'currency' => 'currency',
-                'name' =
+                'name' => 'name',
+                'description' => 'description',
+                'notificationsUrl' => 'notifications_url',
+                'metadata' => 'metadata',
+            
