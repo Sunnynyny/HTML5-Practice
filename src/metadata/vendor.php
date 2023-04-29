@@ -2014,4 +2014,9 @@ return array (
                 'description' => 'description',
                 'notificationsUrl' => 'notifications_url',
                 'metadata' => 'metadata',
-            
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/orders',
+            'method' => 'POST',
+        ),
+        'refundOrder' => array (
+            'dic
