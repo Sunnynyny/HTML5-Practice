@@ -2019,4 +2019,8 @@ return array (
             'method' => 'POST',
         ),
         'refundOrder' => array (
-            'dic
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'orderId' => 'orderId',
+                'currency' => 'currency',
+        
