@@ -2023,4 +2023,7 @@ return array (
                 'accessToken' => 'access_token',
                 'orderId' => 'orderId',
                 'currency' => 'currency',
-        
+                'refundAddress' => 'refund_address',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/orders/{{orderId}}/refund',
+      
