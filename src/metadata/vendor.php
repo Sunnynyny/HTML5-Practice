@@ -2031,4 +2031,9 @@ return array (
         'getCheckouts' => array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
-      
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/checkouts',
+            'method' => 'GET',
+        ),
+        'getSingleCheckout' => array (
+     
