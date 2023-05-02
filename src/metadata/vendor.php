@@ -2026,4 +2026,9 @@ return array (
                 'refundAddress' => 'refund_address',
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/orders/{{orderId}}/refund',
+            'method' => 'POST',
+        ),
+        'getCheckouts' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
       
