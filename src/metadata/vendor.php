@@ -2040,4 +2040,7 @@ return array (
                 'accessToken' => 'access_token',
                 'checkoutId' => 'checkoutId',
             ),
-          
+            'vendorUrl' => 'https://api.coinbase.com/v2/checkouts/{{checkoutId}}',
+            'method' => 'GET',
+        ),
+        'createCheckout' => arr
