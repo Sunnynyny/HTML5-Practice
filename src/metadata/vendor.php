@@ -2036,4 +2036,8 @@ return array (
             'method' => 'GET',
         ),
         'getSingleCheckout' => array (
-     
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'checkoutId' => 'checkoutId',
+            ),
+          
