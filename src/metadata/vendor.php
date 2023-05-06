@@ -2054,4 +2054,7 @@ return array (
                 'style' => 'style',
                 'customerDefinedAmount' => 'customer_defined_amount',
                 'amountPresets' => 'amount_presets',
-                'suc
+                'successUrl' => 'success_url',
+                'cancelUrl' => 'cancel_url',
+                'notificationsUrl' => 'notifications_url',
+                'autoRedirect' => 'auto_redir
