@@ -2051,4 +2051,7 @@ return array (
                 'name' => 'name',
                 'description' => 'description',
                 'type' => 'type',
-                's
+                'style' => 'style',
+                'customerDefinedAmount' => 'customer_defined_amount',
+                'amountPresets' => 'amount_presets',
+                'suc
