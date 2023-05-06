@@ -2047,4 +2047,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'amount' => 'amount',
-         
+                'currency' => 'currency',
+                'name' => 'name',
+                'description' => 'description',
+                'type' => 'type',
+                's
