@@ -2060,4 +2060,7 @@ return array (
                 'autoRedirect' => 'auto_redirect',
                 'collectShippingAddress' => 'collect_shipping_address',
                 'collectEmail' => 'collect_email',
-                'col
+                'collectPhoneNumber' => 'collect_phone_number',
+                'collectCountry' => 'collect_country',
+                'metadata' => 'metadata',
+          
