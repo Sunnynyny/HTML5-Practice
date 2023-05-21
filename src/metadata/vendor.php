@@ -2063,4 +2063,9 @@ return array (
                 'collectPhoneNumber' => 'collect_phone_number',
                 'collectCountry' => 'collect_country',
                 'metadata' => 'metadata',
-          
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/checkouts',
+            'method' => 'POST',
+        ),
+        'getCheckoutOrders' => array (
+       
