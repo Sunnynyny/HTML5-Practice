@@ -2072,4 +2072,8 @@ return array (
                 'accessToken' => 'access_token',
                 'checkoutId' => 'checkoutId',
             ),
-            'vendorUrl' => 'https
+            'vendorUrl' => 'https://api.coinbase.com/v2/checkouts/{{checkoutId}}/orders',
+            'method' => 'GET',
+        ),
+        'createCheckoutOrder' => array (
+            'dictionar
