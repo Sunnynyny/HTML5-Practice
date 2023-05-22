@@ -2068,4 +2068,8 @@ return array (
             'method' => 'POST',
         ),
         'getCheckoutOrders' => array (
-       
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'checkoutId' => 'checkoutId',
+            ),
+            'vendorUrl' => 'https
