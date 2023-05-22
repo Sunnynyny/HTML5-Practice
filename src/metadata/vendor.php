@@ -2076,4 +2076,8 @@ return array (
             'method' => 'GET',
         ),
         'createCheckoutOrder' => array (
-            'dictionar
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'checkoutId' => 'checkoutId',
+            ),
+            'vendorUrl' => 'https://api.coi
