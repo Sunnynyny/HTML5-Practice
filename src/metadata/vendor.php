@@ -2085,4 +2085,8 @@ return array (
         ),
         'getCurrencies' => array (
             'dictionary' => array (
-            
+                'accessToken' => 'access_token',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/currencies',
+            'method' => 'GET',
+        )
