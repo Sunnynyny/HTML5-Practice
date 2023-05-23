@@ -2080,4 +2080,9 @@ return array (
                 'accessToken' => 'access_token',
                 'checkoutId' => 'checkoutId',
             ),
-            'vendorUrl' => 'https://api.coi
+            'vendorUrl' => 'https://api.coinbase.com/v2/checkouts/{{checkoutId}}/orders',
+            'method' => 'POST',
+        ),
+        'getCurrencies' => array (
+            'dictionary' => array (
+            
