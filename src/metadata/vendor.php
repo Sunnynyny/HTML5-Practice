@@ -2089,4 +2089,9 @@ return array (
             ),
             'vendorUrl' => 'https://api.coinbase.com/v2/currencies',
             'method' => 'GET',
-        )
+        ),
+        'getExchangeRates' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'currency' => 'currency',
+  
