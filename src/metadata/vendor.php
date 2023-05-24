@@ -2103,4 +2103,8 @@ return array (
                 'accessToken' => 'access_token',
                 'currencyPair' => 'currencyPair',
             ),
-            'vendorUrl' => 'https://api.
+            'vendorUrl' => 'https://api.coinbase.com/v2/prices/{{currencyPair}}/buy',
+            'method' => 'GET',
+        ),
+        'getSellPrice' => array (
+            'dictio
