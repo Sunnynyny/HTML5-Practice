@@ -2107,4 +2107,8 @@ return array (
             'method' => 'GET',
         ),
         'getSellPrice' => array (
-            'dictio
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'currencyPair' => 'currencyPair',
+            ),
+            'vendorUrl' => 'ht
