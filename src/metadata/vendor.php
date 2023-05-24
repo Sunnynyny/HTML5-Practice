@@ -2099,4 +2099,8 @@ return array (
             'method' => 'GET',
         ),
         'getBuyPrice' => array (
-            'dictionary' => array
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'currencyPair' => 'currencyPair',
+            ),
+            'vendorUrl' => 'https://api.
