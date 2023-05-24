@@ -2094,4 +2094,9 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'currency' => 'currency',
-  
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/exchange-rates',
+            'method' => 'GET',
+        ),
+        'getBuyPrice' => array (
+            'dictionary' => array
