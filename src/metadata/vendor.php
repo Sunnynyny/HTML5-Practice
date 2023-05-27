@@ -2111,4 +2111,7 @@ return array (
                 'accessToken' => 'access_token',
                 'currencyPair' => 'currencyPair',
             ),
-            'vendorUrl' => 'ht
+            'vendorUrl' => 'https://api.coinbase.com/v2/prices/{{currencyPair}}/sell',
+            'method' => 'GET',
+        ),
+        'getSpotPrice' => array (
