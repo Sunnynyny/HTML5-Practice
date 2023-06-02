@@ -2118,4 +2118,8 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'currencyPair' => 'currencyPair',
-            
+                'date' => 'date',
+            ),
+            'vendorUrl' => 'https://api.coinbase.com/v2/prices/{{currencyPair}}/spot',
+            'method' => 'GET',
+            'custom' => tru
