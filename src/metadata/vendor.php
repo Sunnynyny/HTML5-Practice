@@ -2115,3 +2115,7 @@ return array (
             'method' => 'GET',
         ),
         'getSpotPrice' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'currencyPair' => 'currencyPair',
+            
