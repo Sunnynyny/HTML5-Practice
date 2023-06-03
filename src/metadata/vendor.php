@@ -2128,4 +2128,8 @@ return array (
             'vendorUrl' => 'https://api.coinbase.com/v2/time',
             'method' => 'GET',
         ),
-        '
+        'nextPage' => array (
+            'dictionary' => array (
+                'accessToken' => 'access_token',
+                'nextUri' => 'nextUri',
+    
