@@ -2132,4 +2132,10 @@ return array (
             'dictionary' => array (
                 'accessToken' => 'access_token',
                 'nextUri' => 'nextUri',
-    
+            ),
+            'vendorUrl' => 'https://api.coinbase.com',
+            'method' => 'GET',
+            'custom' => true,
+        ),
+    ),
+);
